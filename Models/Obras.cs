@@ -2,7 +2,6 @@
 
 public class Obras
 {
-
     public int ObraID { get; set; }
     public string Nombre { get; set; }
     public string Descripcion { get; set; }
