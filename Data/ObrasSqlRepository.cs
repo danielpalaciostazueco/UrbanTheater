@@ -42,19 +42,15 @@ namespace UrbanTheater.Data
                                 Cartel = reader["Cartel"].ToString(),
                             };
 
-                            // Procesar y añadir Autores
                             foreach (var autor in reader["Autores"].ToString().Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
                             {
                                 obra.Autores.Add(autor.Trim());
                             }
 
-                            // Procesar y añadir Actores
                             foreach (var actor in reader["Actores"].ToString().Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
                             {
                                 obra.Actores.Add(actor.Trim());
                             }
-
-                            // Procesar y añadir Imagenes
                             foreach (var imagen in reader["Imagenes"].ToString().Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
                             {
                                 obra.Imagenes.Add(imagen.Trim());
