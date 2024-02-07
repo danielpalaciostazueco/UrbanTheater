@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\S2-PC00\\Desktop\\UrbanTheater\\Models\\UrbanTheater.Models.csproj",
+      "projectUniqueName": "c:\\Users\\S2-PC00\\UrbanTheater\\Models\\UrbanTheater.Models.csproj",
       "projectName": "UrbanTheater.Models",
-      "projectPath": "C:\\Users\\S2-PC00\\Desktop\\UrbanTheater\\Models\\UrbanTheater.Models.csproj",
+      "projectPath": "c:\\Users\\S2-PC00\\UrbanTheater\\Models\\UrbanTheater.Models.csproj",
       "packagesPath": "C:\\Users\\S2-PC00\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\S2-PC00\\Desktop\\UrbanTheater\\Models\\obj\\",
+      "outputPath": "c:\\Users\\S2-PC00\\UrbanTheater\\Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

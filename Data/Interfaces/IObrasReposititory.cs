@@ -8,5 +8,7 @@ namespace UrbanTheater.Data
         List<Obras> GetAll();
         Obras Get(int id);
         void Update(Obras obra);
+        void Add(Obras obras);
+        void Delete(int id);
     }
 }
