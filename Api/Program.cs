@@ -5,8 +5,6 @@ using UrbanTheater.Data;
 using TetePizza.Controllers;
 using Microsoft.EntityFrameworkCore;
 
-
-
 var builder = WebApplication.CreateBuilder(args);
 var isRunningInDocker = Environment.GetEnvironmentVariable("DOCKER_CONTAINER") == "true";
 var keyString = isRunningInDocker ? "ServerDB_Docker" : "ServerDB_Local";
@@ -20,9 +18,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<UrbanTheaterAppContext>(options =>
     options.UseSqlServer(connectionString));
 
-
 builder.Services.AddScoped<ObrasService>();
-builder.Services.AddScoped<IObrasRepository,ObrasRepository>();
+builder.Services.AddScoped<IObrasRepository, ObrasRepository>();
 
 var app = builder.Build();
 

@@ -35,9 +35,9 @@ services:
 
   web:
     container_name: webContainer
-    image: danielpalacios2003/web:1.0
+    image: prueba2
     ports:
-      - "9000:8080"
+      - "9000:80"
     depends_on:
       - api
     networks:

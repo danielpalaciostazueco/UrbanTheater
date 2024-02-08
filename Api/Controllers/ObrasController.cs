@@ -7,6 +7,7 @@ namespace TetePizza.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+
     public class ObrasController : ControllerBase
     {
         private readonly ObrasService _obraService;
