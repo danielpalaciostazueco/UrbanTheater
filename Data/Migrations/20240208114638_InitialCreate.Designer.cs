@@ -11,7 +11,7 @@ using UrbanTheater.Data;
 namespace UrbanTheater.Data.Migrations
 {
     [DbContext(typeof(UrbanTheaterAppContext))]
-    [Migration("20240207200723_InitialCreate")]
+    [Migration("20240208114638_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
