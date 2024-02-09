@@ -33,3 +33,14 @@ C:\Users\palac\Desktop\Nueva carpeta\UrbanTheater\Models\obj\Debug\net7.0\UrbanT
 C:\Users\palac\Desktop\Nueva carpeta\UrbanTheater\Models\obj\Debug\net7.0\refint\UrbanTheater.Models.dll
 C:\Users\palac\Desktop\Nueva carpeta\UrbanTheater\Models\obj\Debug\net7.0\UrbanTheater.Models.pdb
 C:\Users\palac\Desktop\Nueva carpeta\UrbanTheater\Models\obj\Debug\net7.0\ref\UrbanTheater.Models.dll
+C:\Users\Usuario\Desktop\Curso23-24-San-Valero\UrbanTheater\Models\bin\Debug\net7.0\UrbanTheater.Models.deps.json
+C:\Users\Usuario\Desktop\Curso23-24-San-Valero\UrbanTheater\Models\bin\Debug\net7.0\UrbanTheater.Models.dll
+C:\Users\Usuario\Desktop\Curso23-24-San-Valero\UrbanTheater\Models\bin\Debug\net7.0\UrbanTheater.Models.pdb
+C:\Users\Usuario\Desktop\Curso23-24-San-Valero\UrbanTheater\Models\obj\Debug\net7.0\UrbanTheater.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Curso23-24-San-Valero\UrbanTheater\Models\obj\Debug\net7.0\UrbanTheater.Models.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Curso23-24-San-Valero\UrbanTheater\Models\obj\Debug\net7.0\UrbanTheater.Models.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Curso23-24-San-Valero\UrbanTheater\Models\obj\Debug\net7.0\UrbanTheater.Models.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Curso23-24-San-Valero\UrbanTheater\Models\obj\Debug\net7.0\UrbanTheater.Models.dll
+C:\Users\Usuario\Desktop\Curso23-24-San-Valero\UrbanTheater\Models\obj\Debug\net7.0\refint\UrbanTheater.Models.dll
+C:\Users\Usuario\Desktop\Curso23-24-San-Valero\UrbanTheater\Models\obj\Debug\net7.0\UrbanTheater.Models.pdb
+C:\Users\Usuario\Desktop\Curso23-24-San-Valero\UrbanTheater\Models\obj\Debug\net7.0\ref\UrbanTheater.Models.dll

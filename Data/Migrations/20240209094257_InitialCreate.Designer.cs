@@ -11,7 +11,7 @@ using UrbanTheater.Data;
 namespace UrbanTheater.Data.Migrations
 {
     [DbContext(typeof(UrbanTheaterAppContext))]
-    [Migration("20240208114638_InitialCreate")]
+    [Migration("20240209094257_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -75,91 +75,91 @@ namespace UrbanTheater.Data.Migrations
                         new
                         {
                             ObraID = 1,
-                            Actores = "Alexander Montgomery, Isabella Ramirez, Benjamin Worthington, Olivia Hawthorne, Nathaniel Harrington",
-                            Autores = "Samuel Beckett",
+                            Actores = "[\"Alexander Montgomery\",\"Isabella Ramirez\",\"Benjamin Worthington\",\"Olivia Hawthorne\",\"Nathaniel Harrington\"]",
+                            Autores = "[\"Samuel Beckett\"]",
                             Cartel = "https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Esperando-Godot/esperando-a-godot.jpg",
                             Descripcion = "Una obra teatral absurda que sigue a dos personajes, Vladimir y Estragon, mientras esperan en un lugar desolado a alguien llamado Godot, explorando temas de la existencia, la alienación y la esperanza.",
                             Duracion = 2m,
-                            Fechas = "2024-03-03 - 21:00, 2024-03-09 - 22:00, 2024-03-18 - 23:00",
-                            Imagenes = "https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Esperando-Godot/esperando-a-godot_FN.jpg, https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Esperando-Godot/esperando-a-godot_FN2.jpg, https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Esperando-Godot/una-escena-de-esperando-a-godot.jpg",
+                            Fechas = "[\"2024-03-03 - 21:00\",\"2024-03-09 - 22:00\",\"2024-03-18 - 23:00\"]",
+                            Imagenes = "[\"https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Esperando-Godot/esperando-a-godot_FN.jpg\",\"https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Esperando-Godot/esperando-a-godot_FN2.jpg\",\"https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Esperando-Godot/una-escena-de-esperando-a-godot.jpg\"]",
                             Nombre = "Esperando a Godot",
                             Slug = "godot"
                         },
                         new
                         {
                             ObraID = 2,
-                            Actores = "Sophia Anderson, Daniel Blackwood, Elena Rodriguez, Nicholas Smith, Isabella Johnson",
-                            Autores = "Andrew Lloyd Webber",
+                            Actores = "[\"Sophia Anderson\",\"Daniel Blackwood\",\"Elena Rodriguez\",\"Nicholas Smith\",\"Isabella Johnson\"]",
+                            Autores = "[\"Andrew Lloyd Webber\",\"Charles Hart\",\"Richard Stilgoe\"]",
                             Cartel = "https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Fantasma-opera/fantasma-opera.jpg",
                             Descripcion = "Una icónica obra de teatro musical que narra la historia de un misterioso y desfigurado hombre conocido como el Fantasma, que vive en los pasadizos de la Ópera de París y se obsesiona con una joven y talentosa soprano, Christine.",
                             Duracion = 2.5m,
-                            Fechas = "2024-01-07 - 20:30, 2024-01-12 - 21:00, 2024-01-22 - 19:00",
-                            Imagenes = "https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Fantasma-opera/fantasma-opera_FN.jpg, https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Fantasma-opera/Fantasma-operea_FN2.jpg",
+                            Fechas = "[\"2024-01-07 - 20:30\",\"2024-01-12 - 21:00\",\"2024-01-22 - 19:00\"]",
+                            Imagenes = "[\"https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Fantasma-opera/fantasma-opera_FN.jpg\",\"https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Fantasma-opera/Fantasma-operea_FN2.jpg\"]",
                             Nombre = "El Fantasma de la Ópera",
                             Slug = "fantasma"
                         },
                         new
                         {
                             ObraID = 3,
-                            Actores = "Miguel Ángel Jiménez, Laura González, José Martín, Carmen Sánchez, Diego Torres",
-                            Autores = "Valentina Moreno, Carlos Ruiz",
+                            Actores = "[\"Miguel \\u00C1ngel Jim\\u00E9nez\",\"Laura Gonz\\u00E1lez\",\"Jos\\u00E9 Mart\\u00EDn\",\"Carmen S\\u00E1nchez\",\"Diego Torres\"]",
+                            Autores = "[\"Valentina Moreno\",\"Carlos Ruiz\"]",
                             Cartel = "https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Galder/Galder.jpeg",
                             Descripcion = "Un audaz espectáculo que desafía las convenciones, combinando elementos de teatro, danza y performance art. La trama sigue a un grupo ecléctico de artistas mientras exploran temas de identidad, realidad y percepción a través de actuaciones vanguardistas.",
                             Duracion = 1.75m,
-                            Fechas = "2024-05-01 - 23:00, 2024-05-15 - 22:00, 2024-05-20 - 21:00",
-                            Imagenes = "https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Galder/galder2.jpg, https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Galder/galder3.jpg",
+                            Fechas = "[\"2024-05-01 - 23:00\",\"2024-05-15 - 22:00\",\"2024-05-20 - 21:00\"]",
+                            Imagenes = "[\"https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Galder/galder2.jpg\",\"https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Galder/galder3.jpg\"]",
                             Nombre = "Esto No Es Un Show",
                             Slug = "show"
                         },
                         new
                         {
                             ObraID = 4,
-                            Actores = "Alexander Knight, Sarah Miller, David Johnson, Emily White, Richard Brown",
-                            Autores = "William Shakespeare",
+                            Actores = "[\"Alexander Knight\",\"Sarah Miller\",\"David Johnson\",\"Emily White\",\"Richard Brown\"]",
+                            Autores = "[\"William Shakespeare\"]",
                             Cartel = "https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Hamlet/hamlet.jpg",
                             Descripcion = "Una de las tragedias más emblemáticas de William Shakespeare, centrada en la historia del príncipe Hamlet de Dinamarca, quien busca vengar la muerte de su padre. La obra explora temas complejos como la locura, la traición, la venganza y la moralidad.",
                             Duracion = 3m,
-                            Fechas = "2024-06-01 - 18:30, 2024-06-06 - 19:00, 2024-06-10 - 22:00",
-                            Imagenes = "https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Hamlet/hamlet_FN2.jpg, https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Hamlet/hamlet_FN.jpg",
+                            Fechas = "[\"2024-06-01 - 18:30\",\"2024-06-06 - 19:00\",\"2024-06-10 - 22:00\"]",
+                            Imagenes = "[\"https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Hamlet/hamlet_FN2.jpg\",\"https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Hamlet/hamlet_FN.jpg\"]",
                             Nombre = "Hamlet",
                             Slug = "hamlet"
                         },
                         new
                         {
                             ObraID = 5,
-                            Actores = "Michael James, Elizabeth Green, Thomas Hill, Rachel Adams, William Parker",
-                            Autores = "Irene Mecchi, Jonathan Roberts, Linda Woolverton",
+                            Actores = "[\"Michael James\",\"Elizabeth Green\",\"Thomas Hill\",\"Rachel Adams\",\"William Parker\"]",
+                            Autores = "[\"Irene Mecchi\",\"Jonathan Roberts\",\"Linda Woolverton\"]",
                             Cartel = "https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Rey-Leon/reyLeon.webp",
                             Descripcion = "Un musical espectacular basado en la famosa película animada de Disney. La historia sigue las aventuras de Simba, un joven león que debe enfrentar numerosos desafíos para reclamar su lugar como el legítimo rey de la sabana. El musical es conocido por su impresionante uso de disfraces, marionetas y efectos visuales para recrear el ambiente de África.",
                             Duracion = 2.5m,
-                            Fechas = "2024-07-01 - 21:00, 2024-07-10 - 19:00, 2024-07-20 - 20:00",
-                            Imagenes = "https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Rey-Leon/reyleonIMG3.jpg, https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Rey-Leon/reyLeonImg1.jpg, https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Rey-Leon/reyleonIMG2.avif",
+                            Fechas = "[\"2024-07-01 - 21:00\",\"2024-07-10 - 19:00\",\"2024-07-20 - 20:00\"]",
+                            Imagenes = "[\"https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Rey-Leon/reyleonIMG3.jpg\",\"https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Rey-Leon/reyLeonImg1.jpg\",\"https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Rey-Leon/reyleonIMG2.avif\"]",
                             Nombre = "El Rey León",
                             Slug = "leon"
                         },
                         new
                         {
                             ObraID = 6,
-                            Actores = "Elena Sánchez, Carlos Pérez, María López, José Torres, Laura Jiménez",
-                            Autores = "Ana García, Luis Hernández",
+                            Actores = "[\"Elena S\\u00E1nchez\",\"Carlos P\\u00E9rez\",\"Mar\\u00EDa L\\u00F3pez\",\"Jos\\u00E9 Torres\",\"Laura Jim\\u00E9nez\"]",
+                            Autores = "[\"Ana Garc\\u00EDa\",\"Luis Hern\\u00E1ndez\"]",
                             Cartel = "https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/BodasDeSangre/BodasDeSangre.jpg",
                             Descripcion = "Una comedia romántica contemporánea que sigue la historia de varias parejas que se preparan para sus respectivas bodas. La obra teje una trama llena de enredos amorosos, malentendidos cómicos y momentos de reflexión sobre las relaciones y el matrimonio.",
                             Duracion = 2m,
-                            Fechas = "2024-08-02 - 21:00, 2024-08-12 - 20:00, 2024-08-21 - 21:00",
-                            Imagenes = "https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/BodasDeSangre/BodasDeSangre_NF2.jpg, https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/BodasDeSangre/BodasDeSangre_NF.jpg",
+                            Fechas = "[\"2024-08-02 - 21:00\",\"2024-08-12 - 20:00\",\"2024-08-21 - 21:00\"]",
+                            Imagenes = "[\"https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/BodasDeSangre/BodasDeSangre_NF2.jpg\",\"https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/BodasDeSangre/BodasDeSangre_NF.jpg\"]",
                             Nombre = "Bodas de sangre",
                             Slug = "bodas"
                         },
                         new
                         {
                             ObraID = 7,
-                            Actores = "Augusto González, Fernando Ardévol, Juan Luis García",
-                            Autores = "Alberto Marca, Carlos Marco",
+                            Actores = "[\"Augusto Gonz\\u00E1lez\",\"Fernando Ard\\u00E9vol\",\"Juan Luis Garc\\u00EDa\"]",
+                            Autores = "[\"Alberto Marca\",\"Carlos Marco\"]",
                             Cartel = "https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/B-vocal/b-vocal_LG.jpg",
                             Descripcion = "Un aclamado grupo vocal que destaca por su habilidad para fusionar a cappella y comedia en sus actuaciones. B-Vocal cautiva al público con su mezcla única de música, humor y la sorprendente habilidad de crear sonidos instrumentales con sus voces, explorando diversos géneros musicales desde el pop hasta el clásico.",
                             Duracion = 1.5m,
-                            Fechas = "2024-09-01 - 21:00, 2024-09-03 - 22:30, 2024-09-10 - 23:00",
-                            Imagenes = "https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/B-vocal/b-vocal_NF.jpg, https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/B-vocal/b.jpg",
+                            Fechas = "[\"2024-09-01 - 21:00\",\"2024-09-03 - 22:30\",\"2024-09-10 - 23:00\"]",
+                            Imagenes = "[\"https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/B-vocal/b-vocal_NF.jpg\",\"https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/B-vocal/b.jpg\"]",
                             Nombre = "B-Vocal",
                             Slug = "vocal"
                         });

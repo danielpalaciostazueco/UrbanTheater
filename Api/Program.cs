@@ -20,12 +20,22 @@ builder.Services.AddDbContext<UrbanTheaterAppContext>(options =>
 
 builder.Services.AddScoped<ObrasService>();
 builder.Services.AddScoped<IObrasRepository, ObrasRepository>();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("MyCorsPolicy", policy =>
+    {
+        policy.WithOrigins("http://localhost:9000") // Asegúrate de reemplazar esto con el origen correcto
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
+
 
 var app = builder.Build();
 
 app.UseSwagger();
 app.UseSwaggerUI();
-
+app.UseCors("MyCorsPolicy");
 //app.UseHttpsRedirection();
 app.UseAuthorization();
 
