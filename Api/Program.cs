@@ -20,6 +20,7 @@ builder.Services.AddDbContext<UrbanTheaterAppContext>(options =>
 
 builder.Services.AddScoped<ObrasService>();
 builder.Services.AddScoped<IObrasRepository, ObrasRepository>();
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("MyCorsPolicy", policy =>
@@ -34,7 +35,7 @@ builder.Services.AddCors(options =>
 var app = builder.Build();
 
 app.UseSwagger();
-app.UseSwaggerUI();
+app.UseSwaggerUI();  
 app.UseCors("MyCorsPolicy");
 //app.UseHttpsRedirection();
 app.UseAuthorization();

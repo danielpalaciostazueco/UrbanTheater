@@ -36,7 +36,7 @@ services:
 
   web:
     container_name: webContainer
-    image: prueba10
+    image: prueba7
     ports:
       - "9000:80"
     depends_on:
