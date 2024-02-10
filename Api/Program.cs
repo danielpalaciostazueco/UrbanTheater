@@ -15,8 +15,15 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
 builder.Services.AddDbContext<UrbanTheaterAppContext>(options =>
-    options.UseSqlServer(connectionString));
+    options.UseSqlServer(connectionString, sqlServerOptionsAction: sqlOptions =>
+    {
+        sqlOptions.EnableRetryOnFailure(
+            maxRetryCount: 5, // Número máximo de intentos
+            maxRetryDelay: TimeSpan.FromSeconds(30), // Tiempo máximo de espera entre intentos
+            errorNumbersToAdd: null); // Errores específicos para reintentos, null para los predeterminados
+    }));
 
 builder.Services.AddScoped<ObrasService>();
 builder.Services.AddScoped<IObrasRepository, ObrasRepository>();
@@ -25,21 +32,17 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("MyCorsPolicy", policy =>
     {
-        policy.WithOrigins("http://localhost:9000") // Asegúrate de reemplazar esto con el origen correcto
+        policy.WithOrigins("http://localhost:9000")
               .AllowAnyMethod()
               .AllowAnyHeader();
     });
 });
 
-
 var app = builder.Build();
-
 app.UseSwagger();
-app.UseSwaggerUI();  
+app.UseSwaggerUI();
 app.UseCors("MyCorsPolicy");
 //app.UseHttpsRedirection();
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();
