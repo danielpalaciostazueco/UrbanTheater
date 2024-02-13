@@ -1,10 +1,10 @@
-﻿using UrbanTheater.Models; // Asume que tus modelos están en este namespace
-using UrbanTheater.Data; // Asume que tus repositorios están en este namespace
+﻿using UrbanTheater.Models;
+using UrbanTheater.Data;
 using System.Collections.Generic;
 
 namespace UrbanTheater.Business
 {
-    public class ObrasService :IObrasService
+    public class ObrasService : IObrasService
     {
         private readonly IObrasRepository _obraRepository;
 
@@ -16,5 +16,6 @@ namespace UrbanTheater.Business
         public List<Obras> GetAll() => _obraRepository.GetAll();
         public Obras? Get(int id) => _obraRepository.Get(id);
         public void Update(Obras obra) => _obraRepository.Update(obra);
+        public void Add(Obras obra) => _obraRepository.Add(obra);
     }
 }

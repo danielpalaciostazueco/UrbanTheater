@@ -13,6 +13,18 @@ namespace UrbanTheater.Data.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
+                name: "Asientos",
+                columns: table => new
+                {
+                    idFecha = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    AsientoOcupado = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Asientos", x => x.idFecha);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Obras",
                 columns: table => new
                 {
@@ -51,6 +63,9 @@ namespace UrbanTheater.Data.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "Asientos");
+
             migrationBuilder.DropTable(
                 name: "Obras");
         }

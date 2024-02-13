@@ -28,6 +28,9 @@ builder.Services.AddDbContext<UrbanTheaterAppContext>(options =>
 builder.Services.AddScoped<ObrasService>();
 builder.Services.AddScoped<IObrasRepository, ObrasRepository>();
 
+builder.Services.AddScoped<AsientosService>();
+builder.Services.AddScoped<IAsientosRepository, AsientosRepository>();
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("MyCorsPolicy", policy =>

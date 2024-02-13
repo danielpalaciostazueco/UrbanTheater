@@ -48,5 +48,14 @@ namespace TetePizza.Controllers
 
             return NoContent();
         }
+
+        [HttpPost]
+
+        public ActionResult<Obras> Create(Obras obra)
+        {
+            _obraService.Add(obra);
+
+            return CreatedAtAction(nameof(Create), new { id = obra.ObraID }, obra);
+        }
     }
 }

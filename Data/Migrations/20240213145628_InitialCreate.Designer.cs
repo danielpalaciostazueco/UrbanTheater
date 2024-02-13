@@ -11,7 +11,7 @@ using UrbanTheater.Data;
 namespace UrbanTheater.Data.Migrations
 {
     [DbContext(typeof(UrbanTheaterAppContext))]
-    [Migration("20240210070003_InitialCreate")]
+    [Migration("20240213145628_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -23,6 +23,20 @@ namespace UrbanTheater.Data.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("UrbanTheater.Models.Asientos", b =>
+                {
+                    b.Property<string>("idFecha")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("AsientoOcupado")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("idFecha");
+
+                    b.ToTable("Asientos");
+                });
 
             modelBuilder.Entity("UrbanTheater.Models.Obras", b =>
                 {

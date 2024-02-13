@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\UrbanTheater\\Models\\UrbanTheater.Models.csproj": {}
+    "C:\\Users\\Usuario\\Downloads\\UrbanTheater\\Models\\UrbanTheater.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\UrbanTheater\\Models\\UrbanTheater.Models.csproj": {
+    "C:\\Users\\Usuario\\Downloads\\UrbanTheater\\Models\\UrbanTheater.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\UrbanTheater\\Models\\UrbanTheater.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Downloads\\UrbanTheater\\Models\\UrbanTheater.Models.csproj",
         "projectName": "UrbanTheater.Models",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\UrbanTheater\\Models\\UrbanTheater.Models.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Downloads\\UrbanTheater\\Models\\UrbanTheater.Models.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\UrbanTheater\\Models\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Downloads\\UrbanTheater\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"

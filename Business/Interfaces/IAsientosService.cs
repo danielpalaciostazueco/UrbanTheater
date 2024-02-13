@@ -3,11 +3,10 @@ using UrbanTheater.Models; // Asegúrate de que el namespace sea correcto para t
 
 namespace UrbanTheater.Business
 {
-    public interface IObrasService
+    public interface IAsientosService
     {
-        List<Obras> GetAll();
-        Obras Get(int id);
-        void Update(Obras obra);
-        void Add(Obras obra);
+        Asientos Get(string id);
+        void Update(Asientos asientos);
+        Asientos Add(Asientos asientos);
     }
 }

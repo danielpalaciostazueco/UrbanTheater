@@ -21,6 +21,20 @@ namespace UrbanTheater.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("UrbanTheater.Models.Asientos", b =>
+                {
+                    b.Property<string>("idFecha")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("AsientoOcupado")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("idFecha");
+
+                    b.ToTable("Asientos");
+                });
+
             modelBuilder.Entity("UrbanTheater.Models.Obras", b =>
                 {
                     b.Property<int>("ObraID")
