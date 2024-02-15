@@ -14,7 +14,6 @@ public class Obras
     public string Nombre { get; set; }
     public string Descripcion { get; set; }
 
-    // Campos como JSON en la base de datos
     public string Autores { get; set; }
     public decimal Duracion { get; set; }
     public string Actores { get; set; }

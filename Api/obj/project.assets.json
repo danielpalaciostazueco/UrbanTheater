@@ -4154,11 +4154,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Downloads\\UrbanTheater\\Api\\UrbanTheater.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\UrbanTheater\\Api\\UrbanTheater.Api.csproj",
       "projectName": "UrbanTheater.Api",
-      "projectPath": "C:\\Users\\Usuario\\Downloads\\UrbanTheater\\Api\\UrbanTheater.Api.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\UrbanTheater\\Api\\UrbanTheater.Api.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Downloads\\UrbanTheater\\Api\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\UrbanTheater\\Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -4173,11 +4173,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Usuario\\Downloads\\UrbanTheater\\Business\\UrbanTheater.Business.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Downloads\\UrbanTheater\\Business\\UrbanTheater.Business.csproj"
+            "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\UrbanTheater\\Business\\UrbanTheater.Business.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\UrbanTheater\\Business\\UrbanTheater.Business.csproj"
             },
-            "C:\\Users\\Usuario\\Downloads\\UrbanTheater\\Models\\UrbanTheater.Models.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Downloads\\UrbanTheater\\Models\\UrbanTheater.Models.csproj"
+            "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\UrbanTheater\\Models\\UrbanTheater.Models.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\UrbanTheater\\Models\\UrbanTheater.Models.csproj"
             }
           }
         }

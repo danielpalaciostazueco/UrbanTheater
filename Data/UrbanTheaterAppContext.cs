@@ -12,6 +12,7 @@ namespace UrbanTheater.Data
 
         public DbSet<Obras> Obras { get; set; }
         public DbSet<Asientos> Asientos { get; set; }
+        public DbSet<AsientosObras> AsientosObras { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -110,6 +111,108 @@ namespace UrbanTheater.Data
                        Cartel = "https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/B-vocal/b-vocal_LG.jpg"
                    }
            );
+            modelBuilder.Entity<Asientos>().HasData(
+                new Asientos
+                {
+                    IdAsiento = 1,
+                    IsFree = true
+                },
+                new Asientos
+                {
+                    IdAsiento = 2,
+                    IsFree = true
+                },
+                new Asientos
+                {
+                    IdAsiento = 3,
+                    IsFree = true
+                },
+                new Asientos
+                {
+                    IdAsiento = 4,
+                    IsFree = true
+                },
+                new Asientos
+                {
+                    IdAsiento = 5,
+                    IsFree = true
+                },
+                new Asientos
+                {
+                    IdAsiento = 6,
+                    IsFree = true
+                },
+                new Asientos
+                {
+                    IdAsiento = 7,
+                    IsFree = true
+                },
+                new Asientos
+                {
+                    IdAsiento = 8,
+                    IsFree = true
+                },
+                new Asientos
+                {
+                    IdAsiento = 9,
+                    IsFree = true
+                },
+                new Asientos
+                {
+                    IdAsiento = 10,
+                    IsFree = true
+                },
+                new Asientos
+                {
+                    IdAsiento = 11,
+                    IsFree = true
+                },
+                new Asientos
+                {
+                    IdAsiento = 12,
+                    IsFree = true
+                },
+                new Asientos
+                {
+                    IdAsiento = 13,
+                    IsFree = true
+                },
+                new Asientos
+                {
+                    IdAsiento = 14,
+                    IsFree = true
+                },
+                new Asientos
+                {
+                    IdAsiento = 15,
+                    IsFree = true
+                },
+                new Asientos
+                {
+                    IdAsiento = 16,
+                    IsFree = true
+                },
+                new Asientos
+                {
+                    IdAsiento = 17,
+                    IsFree = true
+                },
+                new Asientos
+                {
+                    IdAsiento = 18,
+                    IsFree = true
+                },
+                new Asientos
+                {
+                    IdAsiento = 19,
+                    IsFree = true
+                },
+                new Asientos
+                {
+                    IdAsiento = 20,
+                    IsFree = true
+                }
+            );
 
         }
     }

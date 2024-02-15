@@ -16,34 +16,30 @@ namespace UrbanTheater.Api.Controllers
             _asientosService = asientosService;
         }
 
-        [HttpGet("{id}")]
-        public ActionResult<Asientos> Get(string id)
+        [HttpGet("GetAll")]
+        public ActionResult<List<Asientos>> GetAll() => _asientosService.GetAll();
+        [HttpGet("GetAllSeats")]
+        public ActionResult<List<AsientosObras>> GetAllSeats() => _asientosService.GetAllSeats();
+
+        [HttpGet("GetAllSeats/{id}")]
+        public ActionResult<AsientosObras> GetAllSeatsId(int id)
         {
-            var asientos = _asientosService.Get(id);
-            if (asientos == null)
+            var asiento = _asientosService.GetAllSeatsId(id);
+
+            if (asiento == null)
                 return NotFound();
-            return asientos;
+
+            return asiento;
         }
 
-        [HttpPost("{idFecha}")]
-        public ActionResult<Asientos> Post(string idFecha, [FromBody] string[] asientosOcupadosArray)
+        [HttpPost("UpsertSeats")]
+        public IActionResult UpsertSeats([FromBody] AsientosDTO asientosDTO)
         {
-            var asientos = new Asientos
-            {
-                idFecha = idFecha,
-                AsientosOcupadosArray = asientosOcupadosArray
-            };
-
-            try
-            {
-                var createdAsiento = _asientosService.Add(asientos);
-                return CreatedAtAction(nameof(Get), new { id = createdAsiento.idFecha }, createdAsiento);
-            }
-            catch (Exception ex)
-            {
-
-                return StatusCode(500, "Error interno del servidor: " + ex.Message);
-            }
+            _asientosService.UpsertSeats(asientosDTO);
+            return Ok();
         }
+
+
+
     }
 }

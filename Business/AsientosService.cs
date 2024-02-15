@@ -13,29 +13,22 @@ namespace UrbanTheater.Business
             _asientosRepository = asientosRepository;
         }
 
-        public Asientos Get(string id) => _asientosRepository.Get(id);
-
-        public void Update(Asientos asientos) => _asientosRepository.Update(asientos);
-
-        public Asientos Add(Asientos asientos)
+        public List<Asientos> GetAll()
         {
-            var existingAsiento = _asientosRepository.Get(asientos.idFecha);
-            if (existingAsiento != null)
-            {
-                existingAsiento.AsientosOcupadosArray = MergeAsientos(existingAsiento.AsientosOcupadosArray, asientos.AsientosOcupadosArray);
-                _asientosRepository.Update(existingAsiento);
-                return existingAsiento;
-            }
-            else
-            {
-                return _asientosRepository.Add(asientos);
-            }
+            return _asientosRepository.GetAll();
         }
 
-        private string[] MergeAsientos(string[] existingAsientos, string[] newAsientos)
+        public List<AsientosObras> GetAllSeats()
         {
-            var combinedAsientos = existingAsientos.Concat(newAsientos).Distinct().ToArray();
-            return combinedAsientos;
+            return _asientosRepository.GetAllSeats();
         }
+
+        public AsientosObras GetAllSeatsId(int id)
+        {
+            return _asientosRepository.GetAllSeatsId(id);
+        }
+
+
+
     }
 }
