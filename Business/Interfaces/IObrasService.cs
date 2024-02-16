@@ -9,5 +9,8 @@ namespace UrbanTheater.Business
         Obras Get(int id);
         void Update(Obras obra);
         void Add(Obras obra);
+        ObrasDTO GetObrasAsientos(int Id, int Sesion);
+        void PostObrasAsientos(ObrasDTO asientos);
+
     }
 }

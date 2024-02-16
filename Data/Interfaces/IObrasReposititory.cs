@@ -10,5 +10,7 @@ namespace UrbanTheater.Data
         void Update(Obras obra);
         void Add(Obras obras);
         void Delete(int id);
+        ObrasDTO GetObrasAsientos(int Id, int Sesion);
+        void PostObrasAsientos(ObrasDTO asientos);
     }
 }

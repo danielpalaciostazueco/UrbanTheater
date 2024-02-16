@@ -17,18 +17,5 @@ namespace UrbanTheater.Business
         {
             return _asientosRepository.GetAll();
         }
-
-        public List<AsientosObras> GetAllSeats()
-        {
-            return _asientosRepository.GetAllSeats();
-        }
-
-        public AsientosObras GetAllSeatsId(int id)
-        {
-            return _asientosRepository.GetAllSeatsId(id);
-        }
-
-
-
     }
 }

@@ -29,14 +29,8 @@ namespace UrbanTheater.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdAsiento"));
 
-                    b.Property<int>("Event")
-                        .HasColumnType("int");
-
                     b.Property<bool>("IsFree")
                         .HasColumnType("bit");
-
-                    b.Property<int>("ObraID")
-                        .HasColumnType("int");
 
                     b.HasKey("IdAsiento");
 
@@ -46,165 +40,128 @@ namespace UrbanTheater.Data.Migrations
                         new
                         {
                             IdAsiento = 1,
-                            Event = 0,
-                            IsFree = true,
-                            ObraID = 0
+                            IsFree = true
                         },
                         new
                         {
                             IdAsiento = 2,
-                            Event = 0,
-                            IsFree = true,
-                            ObraID = 0
+                            IsFree = true
                         },
                         new
                         {
                             IdAsiento = 3,
-                            Event = 0,
-                            IsFree = true,
-                            ObraID = 0
+                            IsFree = true
                         },
                         new
                         {
                             IdAsiento = 4,
-                            Event = 0,
-                            IsFree = true,
-                            ObraID = 0
+                            IsFree = true
                         },
                         new
                         {
                             IdAsiento = 5,
-                            Event = 0,
-                            IsFree = true,
-                            ObraID = 0
+                            IsFree = true
                         },
                         new
                         {
                             IdAsiento = 6,
-                            Event = 0,
-                            IsFree = true,
-                            ObraID = 0
+                            IsFree = true
                         },
                         new
                         {
                             IdAsiento = 7,
-                            Event = 0,
-                            IsFree = true,
-                            ObraID = 0
+                            IsFree = true
                         },
                         new
                         {
                             IdAsiento = 8,
-                            Event = 0,
-                            IsFree = true,
-                            ObraID = 0
+                            IsFree = true
                         },
                         new
                         {
                             IdAsiento = 9,
-                            Event = 0,
-                            IsFree = true,
-                            ObraID = 0
+                            IsFree = true
                         },
                         new
                         {
                             IdAsiento = 10,
-                            Event = 0,
-                            IsFree = true,
-                            ObraID = 0
+                            IsFree = true
                         },
                         new
                         {
                             IdAsiento = 11,
-                            Event = 0,
-                            IsFree = true,
-                            ObraID = 0
+                            IsFree = true
                         },
                         new
                         {
                             IdAsiento = 12,
-                            Event = 0,
-                            IsFree = true,
-                            ObraID = 0
+                            IsFree = true
                         },
                         new
                         {
                             IdAsiento = 13,
-                            Event = 0,
-                            IsFree = true,
-                            ObraID = 0
+                            IsFree = true
                         },
                         new
                         {
                             IdAsiento = 14,
-                            Event = 0,
-                            IsFree = true,
-                            ObraID = 0
+                            IsFree = true
                         },
                         new
                         {
                             IdAsiento = 15,
-                            Event = 0,
-                            IsFree = true,
-                            ObraID = 0
+                            IsFree = true
                         },
                         new
                         {
                             IdAsiento = 16,
-                            Event = 0,
-                            IsFree = true,
-                            ObraID = 0
+                            IsFree = true
                         },
                         new
                         {
                             IdAsiento = 17,
-                            Event = 0,
-                            IsFree = true,
-                            ObraID = 0
+                            IsFree = true
                         },
                         new
                         {
                             IdAsiento = 18,
-                            Event = 0,
-                            IsFree = true,
-                            ObraID = 0
+                            IsFree = true
                         },
                         new
                         {
                             IdAsiento = 19,
-                            Event = 0,
-                            IsFree = true,
-                            ObraID = 0
+                            IsFree = true
                         },
                         new
                         {
                             IdAsiento = 20,
-                            Event = 0,
-                            IsFree = true,
-                            ObraID = 0
+                            IsFree = true
                         });
                 });
 
-            modelBuilder.Entity("UrbanTheater.Models.AsientosObras", b =>
+            modelBuilder.Entity("UrbanTheater.Models.AsientosObrasDatos", b =>
                 {
-                    b.Property<int>("ObraID")
+                    b.Property<int>("IdObjeto")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ObraID"));
-
-                    b.Property<int>("Event")
-                        .HasColumnType("int");
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdObjeto"));
 
                     b.Property<int>("IdAsiento")
+                        .HasColumnType("int");
+
+                    b.Property<int>("IdObra")
+                        .HasColumnType("int");
+
+                    b.Property<int>("IdSesion")
                         .HasColumnType("int");
 
                     b.Property<bool>("IsFree")
                         .HasColumnType("bit");
 
-                    b.HasKey("ObraID");
+                    b.HasKey("IdObjeto");
 
-                    b.ToTable("AsientosObras");
+                    b.ToTable("AsientosObrasDatos");
                 });
 
             modelBuilder.Entity("UrbanTheater.Models.Obras", b =>

@@ -18,9 +18,7 @@ namespace UrbanTheater.Data.Migrations
                 {
                     IdAsiento = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    IsFree = table.Column<bool>(type: "bit", nullable: false),
-                    ObraID = table.Column<int>(type: "int", nullable: false),
-                    Event = table.Column<int>(type: "int", nullable: false)
+                    IsFree = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -28,18 +26,19 @@ namespace UrbanTheater.Data.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "AsientosObras",
+                name: "AsientosObrasDatos",
                 columns: table => new
                 {
-                    ObraID = table.Column<int>(type: "int", nullable: false)
+                    IdObjeto = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Event = table.Column<int>(type: "int", nullable: false),
+                    IdObra = table.Column<int>(type: "int", nullable: false),
+                    IdSesion = table.Column<int>(type: "int", nullable: false),
                     IdAsiento = table.Column<int>(type: "int", nullable: false),
                     IsFree = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_AsientosObras", x => x.ObraID);
+                    table.PrimaryKey("PK_AsientosObrasDatos", x => x.IdObjeto);
                 });
 
             migrationBuilder.CreateTable(
@@ -65,29 +64,29 @@ namespace UrbanTheater.Data.Migrations
 
             migrationBuilder.InsertData(
                 table: "Asientos",
-                columns: new[] { "IdAsiento", "Event", "IsFree", "ObraID" },
+                columns: new[] { "IdAsiento", "IsFree" },
                 values: new object[,]
                 {
-                    { 1, 0, true, 0 },
-                    { 2, 0, true, 0 },
-                    { 3, 0, true, 0 },
-                    { 4, 0, true, 0 },
-                    { 5, 0, true, 0 },
-                    { 6, 0, true, 0 },
-                    { 7, 0, true, 0 },
-                    { 8, 0, true, 0 },
-                    { 9, 0, true, 0 },
-                    { 10, 0, true, 0 },
-                    { 11, 0, true, 0 },
-                    { 12, 0, true, 0 },
-                    { 13, 0, true, 0 },
-                    { 14, 0, true, 0 },
-                    { 15, 0, true, 0 },
-                    { 16, 0, true, 0 },
-                    { 17, 0, true, 0 },
-                    { 18, 0, true, 0 },
-                    { 19, 0, true, 0 },
-                    { 20, 0, true, 0 }
+                    { 1, true },
+                    { 2, true },
+                    { 3, true },
+                    { 4, true },
+                    { 5, true },
+                    { 6, true },
+                    { 7, true },
+                    { 8, true },
+                    { 9, true },
+                    { 10, true },
+                    { 11, true },
+                    { 12, true },
+                    { 13, true },
+                    { 14, true },
+                    { 15, true },
+                    { 16, true },
+                    { 17, true },
+                    { 18, true },
+                    { 19, true },
+                    { 20, true }
                 });
 
             migrationBuilder.InsertData(
@@ -112,7 +111,7 @@ namespace UrbanTheater.Data.Migrations
                 name: "Asientos");
 
             migrationBuilder.DropTable(
-                name: "AsientosObras");
+                name: "AsientosObrasDatos");
 
             migrationBuilder.DropTable(
                 name: "Obras");

@@ -18,28 +18,5 @@ namespace UrbanTheater.Api.Controllers
 
         [HttpGet("GetAll")]
         public ActionResult<List<Asientos>> GetAll() => _asientosService.GetAll();
-        [HttpGet("GetAllSeats")]
-        public ActionResult<List<AsientosObras>> GetAllSeats() => _asientosService.GetAllSeats();
-
-        [HttpGet("GetAllSeats/{id}")]
-        public ActionResult<AsientosObras> GetAllSeatsId(int id)
-        {
-            var asiento = _asientosService.GetAllSeatsId(id);
-
-            if (asiento == null)
-                return NotFound();
-
-            return asiento;
-        }
-
-        [HttpPost("UpsertSeats")]
-        public IActionResult UpsertSeats([FromBody] AsientosDTO asientosDTO)
-        {
-            _asientosService.UpsertSeats(asientosDTO);
-            return Ok();
-        }
-
-
-
     }
 }

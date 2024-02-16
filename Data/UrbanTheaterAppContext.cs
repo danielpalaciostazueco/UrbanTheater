@@ -12,7 +12,7 @@ namespace UrbanTheater.Data
 
         public DbSet<Obras> Obras { get; set; }
         public DbSet<Asientos> Asientos { get; set; }
-        public DbSet<AsientosObras> AsientosObras { get; set; }
+        public DbSet<AsientosObrasDatos> AsientosObrasDatos { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

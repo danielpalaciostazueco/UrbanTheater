@@ -17,7 +17,7 @@ namespace UrbanTheater.Data
 
         public List<Obras> GetAll()
         {
-          
+
             return _context.Obras.ToList();
         }
 
@@ -42,6 +42,58 @@ namespace UrbanTheater.Data
         {
             var obra = _context.Obras.FirstOrDefault(obras => obras.ObraID == id);
             _context.Obras.Remove(obra);
+            _context.SaveChanges();
+        }
+
+
+        //------------------------Asientos-------------------------------//
+
+        public ObrasDTO GetObrasAsientos(int ObraID, int IdSesion)
+        {
+            var Obras = _context.AsientosObrasDatos
+            .Where(id => id.IdObra == ObraID && id.IdSesion == IdSesion)
+            .Select(p => new ObrasDTO
+            {
+                IdObra = p.IdObra,
+                IdSesion = p.IdSesion,
+                IdAsiento = p.IdAsiento,
+                IsFree = p.IsFree
+
+            }).FirstOrDefault();
+
+            return Obras;
+        }
+
+        public void PostObrasAsientos(ObrasDTO asientos)
+        {
+            var obra = _context.AsientosObrasDatos
+            .Where(id => id.IdObra == asientos.IdObra && id.IdSesion == asientos.IdSesion && id.IdAsiento == asientos.IdAsiento)
+            .FirstOrDefault();
+
+            if (obra != null)
+            {
+                var newObra = new AsientosObrasDatos
+                {
+                    IdObra = asientos.IdObra,
+                    IdSesion = asientos.IdSesion,
+                    IdAsiento = asientos.IdAsiento + 1,
+                    IsFree = asientos.IsFree
+                };
+
+
+
+            }
+            else//Parte para  gestionar si no existe el asiento en la obra
+            {
+                var newObra = new AsientosObrasDatos
+                {
+                    IdObra = asientos.IdObra,
+                    IdSesion = asientos.IdSesion,
+                    IdAsiento = asientos.IdAsiento,
+                    IsFree = asientos.IsFree
+                };
+                _context.AsientosObrasDatos.Add(newObra);
+            }
             _context.SaveChanges();
         }
     }

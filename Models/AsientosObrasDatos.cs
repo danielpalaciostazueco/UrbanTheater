@@ -4,15 +4,13 @@ using System.ComponentModel.DataAnnotations;
 
 namespace UrbanTheater.Models;
 
-public class AsientosObras
+public class AsientosObrasDatos
 {
-    public AsientosObras() { }
-
+    public AsientosObrasDatos() { }
     [Key]
-    public int ObraID { get; set; }
-    public Obras obra { get; set; }
+    public int IdObjeto { get; set; }
+    public int IdObra { get; set; }
+    public int IdSesion { get; set; }
     public int IdAsiento { get; set; }
-    public Asientos Asiento { get; set; }
-
-
+    public bool IsFree { get; set; }
 }

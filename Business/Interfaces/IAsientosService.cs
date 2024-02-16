@@ -6,9 +6,5 @@ namespace UrbanTheater.Business
     public interface IAsientosService
     {
         List<Asientos> GetAll();
-        List<AsientosObras> GetAllSeats();
-        AsientosObras GetAllSeatsId(int id);
-
-
     }
 }

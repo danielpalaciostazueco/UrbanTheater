@@ -15,8 +15,6 @@ namespace UrbanTheater.Data
             _context = context;
         }
         public List<Asientos> GetAll() => _context.Asientos.ToList();
-        public List<AsientosObras> GetAllSeats() => _context.AsientosObras.ToList();
-        public AsientosObras GetAllSeatsId(int id) => _context.AsientosObras.FirstOrDefault(x => x.ObraID == id);
 
     }
 }
