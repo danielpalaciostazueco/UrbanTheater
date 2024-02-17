@@ -60,50 +60,31 @@ namespace TetePizza.Controllers
 
         //-------Asientos-------------------------//
 
-
-        [HttpGet("{obraId}/Session/{sessionId}/Seat")]//Método para obtener los asientos de una obra
-        public ActionResult<AsientosDTO> GetSeat(int obraId, int sessionId)
+        [HttpGet("{obraId}/Session/{sessionId}/Seat")]
+        public ActionResult<List<AsientosDTO>> GetSeat(int obraId, int sessionId)
         {
-            var obraAsientos = _obraService.GetObrasAsientos(obraId, sessionId);//hecho este paso
+            var asientosId = _obraService.GetObrasAsientos(obraId, sessionId);
 
-            if (obraAsientos == null)
+            if (asientosId == null || asientosId.Count == 0)
             {
-                return NotFound("Obra not found.");
+                return NotFound("No seats found for the given obra and session.");
             }
 
-
-            var sessionAsientos = obraAsientos.IdAsiento;
-            List<int> asientos = new List<int>();
-            asientos.Add(sessionAsientos);
-            var resultado = new AsientosDTO { asientos = asientos };
-
-            return Ok(resultado);
+            return Ok(asientosId);
         }
+
 
         [HttpPost("{obraId}/Session/{sessionId}/AddAsientos")]
-
-
         public IActionResult AddAsientosToSession(int obraId, int sessionId, [FromBody] AsientoRequest asientoRequest)
         {
-            // Obtener todos los asientos existentes para la obra y la sesión especificadas.
-            var obraAsientosExistentes = _obraService.GetObrasAsientos(obraId, sessionId);
-
-            if (obraAsientosExistentes == null)
+            if (asientoRequest == null)
             {
-                _obraService.PostObrasAsientos(new ObrasDTO
-                {
-                    IdObra = obraId,
-                    IdSesion = sessionId,
-                    IdAsiento = asientoRequest.AsientoId,
-                    IsFree = asientoRequest.IsFree
-                });
+                return BadRequest("No hay información de asiento para agregar.");
             }
-            else
-            {
-                _obraService.PostObrasAsientos(obraAsientosExistentes);
 
-            }
-            return Ok("Asientos added successfully.");
+            _obraService.AddAsientoToObra(obraId, sessionId, asientoRequest.AsientoId, asientoRequest.IsFree);
+            return Ok("Asiento añadido correctamente!!!.");
         }
+
     }
 }

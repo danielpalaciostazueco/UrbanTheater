@@ -6,11 +6,12 @@ namespace UrbanTheater.Business
     public interface IObrasService
     {
         List<Obras> GetAll();
-        Obras Get(int id);
+        Obras? Get(int id);
         void Update(Obras obra);
         void Add(Obras obra);
-        ObrasDTO GetObrasAsientos(int Id, int Sesion);
-        void PostObrasAsientos(ObrasDTO asientos);
+        void Delete(int id);
+        List<int> GetObrasAsientos(int ObraID, int IdSesion);
+        void AddAsientoToObra(int obraId, int sessionId, int idAsiento, bool isFree);
 
     }
 }

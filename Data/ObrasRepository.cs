@@ -48,53 +48,31 @@ namespace UrbanTheater.Data
 
         //------------------------Asientos-------------------------------//
 
-        public ObrasDTO GetObrasAsientos(int ObraID, int IdSesion)
+        public List<int> GetObrasAsientos(int ObraID, int IdSesion)
         {
-            var Obras = _context.AsientosObrasDatos
-            .Where(id => id.IdObra == ObraID && id.IdSesion == IdSesion)
-            .Select(p => new ObrasDTO
-            {
-                IdObra = p.IdObra,
-                IdSesion = p.IdSesion,
-                IdAsiento = p.IdAsiento,
-                IsFree = p.IsFree
+            var asientosId = _context.AsientosObrasDatos
+                .Where(id => id.IdObra == ObraID && id.IdSesion == IdSesion)
+                .Select(p => p.IdAsiento) // Cambio aquí para seleccionar solo IdAsiento
+                .ToList(); // Usar ToList() en lugar de FirstOrDefault()
 
-            }).FirstOrDefault();
-
-            return Obras;
+            return asientosId; // Devuelve la lista de IdAsiento
         }
 
-        public void PostObrasAsientos(ObrasDTO asientos)
+
+        public void AddAsientoToObra(int obraId, int sessionId, int idAsiento, bool isFree)
         {
-            var obra = _context.AsientosObrasDatos
-            .Where(id => id.IdObra == asientos.IdObra && id.IdSesion == asientos.IdSesion && id.IdAsiento == asientos.IdAsiento)
-            .FirstOrDefault();
-
-            if (obra != null)
+            var nuevoAsiento = new AsientosObrasDatos
             {
-                var newObra = new AsientosObrasDatos
-                {
-                    IdObra = asientos.IdObra,
-                    IdSesion = asientos.IdSesion,
-                    IdAsiento = asientos.IdAsiento + 1,
-                    IsFree = asientos.IsFree
-                };
+                IdObra = obraId,
+                IdSesion = sessionId,
+                IdAsiento = idAsiento,
+                IsFree = isFree
+            };
 
-
-
-            }
-            else//Parte para  gestionar si no existe el asiento en la obra
-            {
-                var newObra = new AsientosObrasDatos
-                {
-                    IdObra = asientos.IdObra,
-                    IdSesion = asientos.IdSesion,
-                    IdAsiento = asientos.IdAsiento,
-                    IsFree = asientos.IsFree
-                };
-                _context.AsientosObrasDatos.Add(newObra);
-            }
+            _context.AsientosObrasDatos.Add(nuevoAsiento);
             _context.SaveChanges();
         }
+
+
     }
 }
