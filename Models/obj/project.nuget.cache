@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VVfCGZ+UxPzO+K0Zz9uh1z9UNpojMScctYJn48q7FLEix/YMBDbhDrNP9GnVpB8ASAPBR9oZ6BieKqTOg3br9A==",
+  "dgSpecHash": "D0N+XNUviAtxkYgJ76seOTNqTCePk5C5s9eCltfA7YG3Mu7HKI6RbAfo65wWM+/vM1KHWzVrEbOqGz7NXI6GIA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\UrbanTheater\\Models\\UrbanTheater.Models.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Models\\UrbanTheater.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

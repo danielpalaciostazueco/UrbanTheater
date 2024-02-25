@@ -33,13 +33,12 @@ services:
       - db
     environment:
       - DOCKER_CONTAINER=true
-
-  #web:
-   # container_name: webContainer
-    #image: prueba33
-    #ports:
-     # - "9000:80"
-    #depends_on:
-     # - api
-    #networks:
-     # - backend
+  web:
+    container_name: webContainer
+    image: p6
+    ports:
+      - "9000:80"
+    depends_on:
+      - api
+    networks:
+      - backend

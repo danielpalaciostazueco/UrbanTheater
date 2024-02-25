@@ -1,4 +1,4 @@
-using System.ComponentModel.DataAnnotations.Schema; // Importa este espacio de nombres
+using System.ComponentModel.DataAnnotations.Schema; 
 using System.ComponentModel.DataAnnotations;
 
 
@@ -8,9 +8,9 @@ public class AsientosObrasDatos
 {
     public AsientosObrasDatos() { }
     [Key]
-    public int IdObjeto { get; set; }
-    public int IdObra { get; set; }
-    public int IdSesion { get; set; }
-    public int IdAsiento { get; set; }
-    public bool IsFree { get; set; }
+    public int idObjeto { get; set; }
+    public int idObra { get; set; }
+    public int idSesion { get; set; }
+    public int idAsiento { get; set; }
+    public bool isFree { get; set; }
 }

@@ -11,7 +11,6 @@ var keyString = isRunningInDocker ? "ServerDB_Docker" : "ServerDB_Local";
 var connectionString = builder.Configuration.GetConnectionString(keyString);
 
 builder.Services.AddControllers();
-
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -20,16 +19,20 @@ builder.Services.AddDbContext<UrbanTheaterAppContext>(options =>
     options.UseSqlServer(connectionString, sqlServerOptionsAction: sqlOptions =>
     {
         sqlOptions.EnableRetryOnFailure(
-            maxRetryCount: 5, // Número máximo de intentos
-            maxRetryDelay: TimeSpan.FromSeconds(30), // Tiempo máximo de espera entre intentos
-            errorNumbersToAdd: null); // Errores específicos para reintentos, null para los predeterminados
+            maxRetryCount: 10,
+            maxRetryDelay: TimeSpan.FromSeconds(30),
+            errorNumbersToAdd: null);
     }));
 
 builder.Services.AddScoped<ObrasService>();
 builder.Services.AddScoped<IObrasRepository, ObrasRepository>();
-
 builder.Services.AddScoped<AsientosService>();
 builder.Services.AddScoped<IAsientosRepository, AsientosRepository>();
+builder.Services.AddScoped<UsuarioService>();
+builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+builder.Services.AddScoped<AdministradorService>();
+builder.Services.AddScoped<IAdministradorRepository, AdministradorRepository>();
+
 
 builder.Services.AddCors(options =>
 {

@@ -15,28 +15,31 @@ namespace UrbanTheater.Data
             _context = context;
         }
 
-        public List<Obras> GetAll()
+        public List<Obra> GetAll()
         {
 
             return _context.Obras.ToList();
         }
 
-        public Obras Get(int id)
+        public Obra Get(int id)
         {
-            return _context.Obras.FirstOrDefault(obras => obras.ObraID == id);
+            return _context.Obras.AsNoTracking().FirstOrDefault(obras => obras.ObraID == id);
         }
 
-        public void Add(Obras obras)
+        public void Add(Obra obras)
         {
             _context.Obras.Add(obras);
             _context.SaveChanges();
         }
 
-        public void Update(Obras obra)
+        public void Update(Obra obra)
         {
+
             _context.Entry(obra).State = EntityState.Modified;
             _context.SaveChanges();
+
         }
+
 
         public void Delete(int id)
         {
@@ -51,11 +54,11 @@ namespace UrbanTheater.Data
         public List<int> GetObrasAsientos(int ObraID, int IdSesion)
         {
             var asientosId = _context.AsientosObrasDatos
-                .Where(id => id.IdObra == ObraID && id.IdSesion == IdSesion)
-                .Select(p => p.IdAsiento) // Cambio aquí para seleccionar solo IdAsiento
-                .ToList(); // Usar ToList() en lugar de FirstOrDefault()
+                .Where(id => id.idObra == ObraID && id.idSesion == IdSesion)
+                .Select(p => p.idAsiento)
+                .ToList();
 
-            return asientosId; // Devuelve la lista de IdAsiento
+            return asientosId;
         }
 
 
@@ -63,10 +66,10 @@ namespace UrbanTheater.Data
         {
             var nuevoAsiento = new AsientosObrasDatos
             {
-                IdObra = obraId,
-                IdSesion = sessionId,
-                IdAsiento = idAsiento,
-                IsFree = isFree
+                idObra = obraId,
+                idSesion = sessionId,
+                idAsiento = idAsiento,
+                isFree = isFree
             };
 
             _context.AsientosObrasDatos.Add(nuevoAsiento);

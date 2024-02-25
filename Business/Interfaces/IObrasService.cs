@@ -5,10 +5,10 @@ namespace UrbanTheater.Business
 {
     public interface IObrasService
     {
-        List<Obras> GetAll();
-        Obras? Get(int id);
-        void Update(Obras obra);
-        void Add(Obras obra);
+        List<Obra> GetAll();
+        Obra? Get(int id);
+        void Update(Obra obra);
+        void Add(Obra obra);
         void Delete(int id);
         List<int> GetObrasAsientos(int ObraID, int IdSesion);
         void AddAsientoToObra(int obraId, int sessionId, int idAsiento, bool isFree);

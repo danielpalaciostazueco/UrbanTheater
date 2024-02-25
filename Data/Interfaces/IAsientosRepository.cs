@@ -5,6 +5,6 @@ namespace UrbanTheater.Data
 {
     public interface IAsientosRepository
     {
-        List<Asientos> GetAll();
+        List<Asiento> GetAll();
     }
 }

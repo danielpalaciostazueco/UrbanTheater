@@ -5,11 +5,11 @@ CREATE TABLE Obras (
     ObraID INT PRIMARY KEY IDENTITY(1,1),
     Nombre NVARCHAR(255),
     Descripcion TEXT,
-    Autores NVARCHAR(255), -- Lista de autores separados por comas
+    Autores NVARCHAR(255), 
     Duracion DECIMAL(3, 1),
-    Actores NVARCHAR(MAX), -- Lista de actores separados por comas
-    Imagenes NVARCHAR(MAX), -- URLs de imágenes separadas por comas
-    Fechas NVARCHAR(MAX), -- Fechas de las funciones separadas por comas
+    Actores NVARCHAR(MAX), 
+    Imagenes NVARCHAR(MAX), 
+    Fechas NVARCHAR(MAX), 
     Slug NVARCHAR(100),
     Cartel NVARCHAR(255)
 );

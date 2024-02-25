@@ -1,10 +1,10 @@
 using System.Collections.Generic;
-using UrbanTheater.Models; // Asegúrate de que el namespace sea correcto para tus modelos
+using UrbanTheater.Models; 
 
 namespace UrbanTheater.Business
 {
     public interface IAsientosService
     {
-        List<Asientos> GetAll();
+        List<Asiento> GetAll();
     }
 }

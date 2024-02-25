@@ -13,10 +13,11 @@ namespace UrbanTheater.Business
             _obraRepository = obraRepository;
         }
 
-        public List<Obras> GetAll() => _obraRepository.GetAll();
-        public Obras? Get(int id) => _obraRepository.Get(id);
-        public void Update(Obras obra) => _obraRepository.Update(obra);
-        public void Add(Obras obra) => _obraRepository.Add(obra);
+        public List<Obra> GetAll() => _obraRepository.GetAll();
+        public Obra? Get(int id) => _obraRepository.Get(id);
+        public void Update(Obra obra) => _obraRepository.Update(obra);
+
+        public void Add(Obra obra) => _obraRepository.Add(obra);
         public void Delete(int id) => _obraRepository.Delete(id);
 
         //-------------Asientos------------------------------------------------//

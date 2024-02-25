@@ -14,7 +14,7 @@ namespace UrbanTheater.Data
         {
             _context = context;
         }
-        public List<Asientos> GetAll() => _context.Asientos.ToList();
+        public List<Asiento> GetAll() => _context.Asientos.ToList();
 
     }
 }

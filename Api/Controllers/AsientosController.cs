@@ -17,6 +17,6 @@ namespace UrbanTheater.Api.Controllers
         }
 
         [HttpGet("GetAll")]
-        public ActionResult<List<Asientos>> GetAll() => _asientosService.GetAll();
+        public ActionResult<List<Asiento>> GetAll() => _asientosService.GetAll();
     }
 }

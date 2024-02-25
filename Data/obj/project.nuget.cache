@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YuS1yyr4HvaG7DN+pqC0NaJoIqbU+zncZDqWpSs53u+Bpj619wcs6ojjwpW3U3hkv5Zk6rA6GmZj3Tv9xJOvPQ==",
+  "dgSpecHash": "gegEEmR4t9hZhsLDhmpAEBp+S4EktkiDQtvVUY0zQGCnrP/6XwSqIfYKIVAXQfv9wsoaYej16aCQf3gWi2zqBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\UrbanTheater\\Data\\UrbanTheater.Data.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Data\\UrbanTheater.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

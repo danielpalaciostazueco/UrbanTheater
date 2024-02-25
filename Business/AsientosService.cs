@@ -13,7 +13,7 @@ namespace UrbanTheater.Business
             _asientosRepository = asientosRepository;
         }
 
-        public List<Asientos> GetAll()
+        public List<Asiento> GetAll()
         {
             return _asientosRepository.GetAll();
         }

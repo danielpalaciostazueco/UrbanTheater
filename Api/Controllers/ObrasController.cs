@@ -19,11 +19,11 @@ namespace TetePizza.Controllers
 
         // GET: /Obras
         [HttpGet]
-        public ActionResult<List<Obras>> GetAll() => _obraService.GetAll();
+        public ActionResult<List<Obra>> GetAll() => _obraService.GetAll();
 
-        // GET: /Obras/{id}
+
         [HttpGet("{id}")]
-        public ActionResult<Obras> Get(int id)
+        public ActionResult<Obra> Get(int id)
         {
             var obra = _obraService.Get(id);
 
@@ -33,9 +33,9 @@ namespace TetePizza.Controllers
             return obra;
         }
 
-        // PUT: /Obras/{id}
+
         [HttpPut("{id}")]
-        public IActionResult Update(int id, Obras obra)
+        public IActionResult Update(int id, Obra obra)
         {
             if (id != obra.ObraID)
                 return BadRequest();
@@ -49,42 +49,63 @@ namespace TetePizza.Controllers
             return NoContent();
         }
 
-        [HttpPost]//Post Datos Obras
-
-        public ActionResult<Obras> Create(Obras obra)
+        [HttpPost]
+        public ActionResult<Obra> Create(Obra obra)
         {
-            _obraService.Add(obra);
+            var existeObra = _obraService.Get(obra.ObraID);
+            if (existeObra != null)
+            {
+                return BadRequest($"Una obra con el ID {obra.ObraID} ya existe.");
+            }
 
+            _obraService.Add(obra);
             return CreatedAtAction(nameof(Create), new { id = obra.ObraID }, obra);
         }
 
-        //-------Asientos-------------------------//
-
-        [HttpGet("{obraId}/Session/{sessionId}/Seat")]
-        public ActionResult<List<AsientosDTO>> GetSeat(int obraId, int sessionId)
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
         {
-            var asientosId = _obraService.GetObrasAsientos(obraId, sessionId);
+            var obra = _obraService.Get(id);
+
+            if (obra is null)
+                return NotFound();
+
+            _obraService.Delete(id);
+
+            return NoContent();
+        }
+
+
+        [HttpGet("{id}/Session/{sessionId}/Seat")]
+        public ActionResult<List<AsientoDTO>> GetSeat(int id, int sessionId)
+        {
+            var asientosId = _obraService.GetObrasAsientos(id, sessionId);
 
             if (asientosId == null || asientosId.Count == 0)
             {
-                return NotFound("No seats found for the given obra and session.");
+                return NotFound("No se ha encontrado la obra.");
             }
 
             return Ok(asientosId);
         }
 
 
-        [HttpPost("{obraId}/Session/{sessionId}/AddAsientos")]
-        public IActionResult AddAsientosToSession(int obraId, int sessionId, [FromBody] AsientoRequest asientoRequest)
+        [HttpPost("{id}/Session/{sessionId}/AddAsientos")]
+        public IActionResult AddAsientosToSession(int id, int sessionId, [FromBody] List<Asiento> asientoRequests)
         {
-            if (asientoRequest == null)
+            if (asientoRequests == null || asientoRequests.Count == 0)
             {
                 return BadRequest("No hay información de asiento para agregar.");
             }
 
-            _obraService.AddAsientoToObra(obraId, sessionId, asientoRequest.AsientoId, asientoRequest.IsFree);
-            return Ok("Asiento añadido correctamente!!!.");
+            foreach (var asientoRequest in asientoRequests)
+            {
+                _obraService.AddAsientoToObra(id, sessionId, asientoRequest.idAsiento, asientoRequest.isFree);
+            }
+
+            return Ok("Asientos añadidos correctamente.");
         }
+
 
     }
 }
