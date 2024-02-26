@@ -35,7 +35,7 @@ services:
       - DOCKER_CONTAINER=true
   web:
     container_name: webContainer
-    image: p6
+    image: p1128
     ports:
       - "9000:80"
     depends_on:

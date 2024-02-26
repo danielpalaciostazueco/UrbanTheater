@@ -15,6 +15,7 @@ namespace UrbanTheater.Business
 
         public List<Obra> GetAll() => _obraRepository.GetAll();
         public Obra? Get(int id) => _obraRepository.Get(id);
+        public Obra GetByName(string name) => _obraRepository.GetByName(name);
         public void Update(Obra obra) => _obraRepository.Update(obra);
 
         public void Add(Obra obra) => _obraRepository.Add(obra);

@@ -7,6 +7,7 @@ namespace UrbanTheater.Business
     {
         List<Obra> GetAll();
         Obra? Get(int id);
+        Obra GetByName(string name);
         void Update(Obra obra);
         void Add(Obra obra);
         void Delete(int id);

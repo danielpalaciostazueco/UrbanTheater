@@ -168,3 +168,20 @@ C:\Users\Usuario\Desktop\UrbanTheater\Business\obj\Debug\net7.0\UrbanTheater.Bus
 C:\Users\Usuario\Desktop\UrbanTheater\Business\obj\Debug\net7.0\refint\UrbanTheater.Business.dll
 C:\Users\Usuario\Desktop\UrbanTheater\Business\obj\Debug\net7.0\UrbanTheater.Business.pdb
 C:\Users\Usuario\Desktop\UrbanTheater\Business\obj\Debug\net7.0\ref\UrbanTheater.Business.dll
+C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Business\bin\Debug\net7.0\UrbanTheater.Business.deps.json
+C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Business\bin\Debug\net7.0\UrbanTheater.Business.dll
+C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Business\bin\Debug\net7.0\UrbanTheater.Business.pdb
+C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Business\bin\Debug\net7.0\UrbanTheater.Data.dll
+C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Business\bin\Debug\net7.0\UrbanTheater.Models.dll
+C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Business\bin\Debug\net7.0\UrbanTheater.Models.pdb
+C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Business\bin\Debug\net7.0\UrbanTheater.Data.pdb
+C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Business\obj\Debug\net7.0\UrbanTheater.Business.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Business\obj\Debug\net7.0\UrbanTheater.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Business\obj\Debug\net7.0\UrbanTheater.Business.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Business\obj\Debug\net7.0\UrbanTheater.Business.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Business\obj\Debug\net7.0\UrbanTheater.Business.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Business\obj\Debug\net7.0\UrbanTheater.Business.csproj.CopyComplete
+C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Business\obj\Debug\net7.0\UrbanTheater.Business.dll
+C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Business\obj\Debug\net7.0\refint\UrbanTheater.Business.dll
+C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Business\obj\Debug\net7.0\UrbanTheater.Business.pdb
+C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Business\obj\Debug\net7.0\ref\UrbanTheater.Business.dll

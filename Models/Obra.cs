@@ -17,6 +17,8 @@ public class Obra
     public decimal? Duracion { get; set; }
     public string? Actores { get; set; }
     public string? Imagenes { get; set; }
-    public string? Fechas { get; set; }
+    public DateTime FechaUno { get; set; }
+    public DateTime FechaDos { get; set; }
+    public DateTime FechaTres { get; set; }
     public string Cartel { get; set; }
 }

@@ -12,7 +12,7 @@ using UrbanTheater.Data;
 namespace UrbanTheater.Data.Migrations
 {
     [DbContext(typeof(UrbanTheaterAppContext))]
-    [Migration("20240222171647_InitialCreate")]
+    [Migration("20240225155655_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -222,8 +222,14 @@ namespace UrbanTheater.Data.Migrations
                     b.Property<decimal?>("Duracion")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<string>("Fechas")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime>("FechaDos")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("FechaTres")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("FechaUno")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Imagenes")
                         .HasColumnType("nvarchar(max)");
@@ -242,11 +248,13 @@ namespace UrbanTheater.Data.Migrations
                             ObraID = 1,
                             Actores = "Alexander Montgomery, Isabella Ramirez, Benjamin Worthington, Olivia Hawthorne, Nathaniel Harrington",
                             Autores = "Samuel Beckett",
-                            Cartel = "https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Esperando-Godot/esperando-a-godot.jpg",
+                            Cartel = "https://ik.imagekit.io/daniel2003/fotos-descripción-obras-teatro/Esperando-Godot/esperando-a-godot.jpg",
                             Descripcion = "Una obra teatral absurda que sigue a dos personajes, Vladimir y Estragon, mientras esperan en un lugar desolado a alguien llamado Godot, explorando temas de la existencia, la alienación y la esperanza.",
                             Duracion = 2m,
-                            Fechas = "2024-03-03 - 21:00,2024-03-09 - 22:00, 2024-03-18 - 23:00",
-                            Imagenes = "https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Esperando-Godot/esperando-a-godot_FN.jpg , https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Esperando-Godot/esperando-a-godot_FN2.jpg , https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Esperando-Godot/una-escena-de-esperando-a-godot.jpg",
+                            FechaDos = new DateTime(2024, 3, 9, 22, 0, 0, 0, DateTimeKind.Unspecified),
+                            FechaTres = new DateTime(2024, 3, 18, 23, 0, 0, 0, DateTimeKind.Unspecified),
+                            FechaUno = new DateTime(2024, 3, 3, 21, 0, 0, 0, DateTimeKind.Unspecified),
+                            Imagenes = "https://ik.imagekit.io/daniel2003/fotos-descripción-obras-teatro/Esperando-Godot/esperando-a-godot_FN.jpg , https://ik.imagekit.io/daniel2003/fotos-descripción-obras-teatro/Esperando-Godot/esperando-a-godot_FN2.jpg , https://ik.imagekit.io/daniel2003/fotos-descripción-obras-teatro/Esperando-Godot/una-escena-de-esperando-a-godot.jpg",
                             Nombre = "Esperando a Godot"
                         },
                         new
@@ -254,11 +262,13 @@ namespace UrbanTheater.Data.Migrations
                             ObraID = 2,
                             Actores = "Sophia Anderson, Daniel Blackwood, Elena Rodriguez, Nicholas Smith, Isabella Johnson ",
                             Autores = "Andrew Lloyd Webber, Charles Hart, Richard Stilgoe",
-                            Cartel = "https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Fantasma-opera/fantasma-opera.jpg",
+                            Cartel = "https://ik.imagekit.io/daniel2003/fotos-descripción-obras-teatro/Fantasma-opera/fantasma-opera.jpg",
                             Descripcion = "Una icónica obra de teatro musical que narra la historia de un misterioso y desfigurado hombre conocido como el Fantasma, que vive en los pasadizos de la Ópera de París y se obsesiona con una joven y talentosa soprano, Christine.",
                             Duracion = 2.5m,
-                            Fechas = "2024-01-07 - 20:30, 2024-01-12 - 21:00, 2024-01-22 - 19:00 ",
-                            Imagenes = "https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Fantasma-opera/fantasma-opera_FN.jpg , https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Fantasma-opera/Fantasma-operea_FN2.jpg",
+                            FechaDos = new DateTime(2024, 1, 12, 21, 0, 0, 0, DateTimeKind.Unspecified),
+                            FechaTres = new DateTime(2024, 1, 22, 19, 0, 0, 0, DateTimeKind.Unspecified),
+                            FechaUno = new DateTime(2024, 1, 7, 20, 30, 0, 0, DateTimeKind.Unspecified),
+                            Imagenes = "https://ik.imagekit.io/daniel2003/fotos-descripción-obras-teatro/Fantasma-opera/fantasma-opera_FN.jpg , https://ik.imagekit.io/daniel2003/fotos-descripción-obras-teatro/Fantasma-opera/Fantasma-operea_FN2.jpg",
                             Nombre = "El Fantasma de la Ópera"
                         },
                         new
@@ -266,11 +276,13 @@ namespace UrbanTheater.Data.Migrations
                             ObraID = 3,
                             Actores = "Miguel Ángel Jiménez, Laura González, José Martín, Carmen Sánchez, Diego Torres",
                             Autores = "Valentina Moreno, Carlos Ruiz",
-                            Cartel = "https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Galder/Galder.jpeg",
+                            Cartel = "https://ik.imagekit.io/daniel2003/fotos-descripción-obras-teatro/Galder/Galder.jpeg",
                             Descripcion = "Un audaz espectáculo que desafía las convenciones, combinando elementos de teatro, danza y performance art. La trama sigue a un grupo ecléctico de artistas mientras exploran temas de identidad, realidad y percepción a través de actuaciones vanguardistas.",
                             Duracion = 1.75m,
-                            Fechas = "2024-05-01 - 23:00, 2024-05-15 - 22:00, 2024-05-20 - 21:00",
-                            Imagenes = "https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Galder/galder2.jpg , https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Galder/galder3.jpg",
+                            FechaDos = new DateTime(2024, 5, 15, 22, 0, 0, 0, DateTimeKind.Unspecified),
+                            FechaTres = new DateTime(2024, 5, 20, 21, 0, 0, 0, DateTimeKind.Unspecified),
+                            FechaUno = new DateTime(2024, 5, 1, 23, 0, 0, 0, DateTimeKind.Unspecified),
+                            Imagenes = "https://ik.imagekit.io/daniel2003/fotos-descripción-obras-teatro/Galder/galder2.jpg , https://ik.imagekit.io/daniel2003/fotos-descripción-obras-teatro/Galder/galder3.jpg",
                             Nombre = "Esto No Es Un Show"
                         },
                         new
@@ -278,11 +290,13 @@ namespace UrbanTheater.Data.Migrations
                             ObraID = 4,
                             Actores = "Alexander Knight, Sarah Miller, David Johnson, Emily White, Richard Brown",
                             Autores = "William Shakespeare",
-                            Cartel = "https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Hamlet/hamlet.jpg",
+                            Cartel = "https://ik.imagekit.io/daniel2003/fotos-descripción-obras-teatro/Hamlet/hamlet.jpg",
                             Descripcion = "Una de las tragedias más emblemáticas de William Shakespeare, centrada en la historia del príncipe Hamlet de Dinamarca, quien busca vengar la muerte de su padre. La obra explora temas complejos como la locura, la traición, la venganza y la moralidad.",
                             Duracion = 3m,
-                            Fechas = "2024-06-01 - 18:30, 2024-06-06 - 19:00, 2024-06-10 - 22:00",
-                            Imagenes = "https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Hamlet/hamlet_FN2.jpg , https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Hamlet/hamlet_FN.jpg",
+                            FechaDos = new DateTime(2024, 6, 6, 19, 0, 0, 0, DateTimeKind.Unspecified),
+                            FechaTres = new DateTime(2024, 6, 10, 22, 0, 0, 0, DateTimeKind.Unspecified),
+                            FechaUno = new DateTime(2024, 6, 1, 18, 30, 0, 0, DateTimeKind.Unspecified),
+                            Imagenes = "https://ik.imagekit.io/daniel2003/fotos-descripción-obras-teatro/Hamlet/hamlet_FN2.jpg , https://ik.imagekit.io/daniel2003/fotos-descripción-obras-teatro/Hamlet/hamlet_FN.jpg",
                             Nombre = "Hamlet"
                         },
                         new
@@ -290,11 +304,13 @@ namespace UrbanTheater.Data.Migrations
                             ObraID = 5,
                             Actores = "Michael James, Elizabeth Green, Thomas Hill, Rachel Adams, William Parker",
                             Autores = "Irene Mecchi, Jonathan Roberts, Linda Woolverton",
-                            Cartel = "https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Rey-Leon/reyLeon.webp",
+                            Cartel = "https://ik.imagekit.io/daniel2003/fotos-descripción-obras-teatro/Rey-Leon/reyLeon.webp",
                             Descripcion = "Un musical espectacular basado en la famosa película animada de Disney. La historia sigue las aventuras de Simba, un joven león que debe enfrentar numerosos desafíos para reclamar su lugar como el legítimo rey de la sabana. El musical es conocido por su impresionante uso de disfraces, marionetas y efectos visuales para recrear el ambiente de África.",
                             Duracion = 2.5m,
-                            Fechas = "2024-07-01 - 21:00, 2024-07-10 - 19:00, 2024-07-20 - 20:00",
-                            Imagenes = "https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Rey-Leon/reyleonIMG3.jpg , https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Rey-Leon/reyLeonImg1.jpg , https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/Rey-Leon/reyleonIMG2.avif",
+                            FechaDos = new DateTime(2024, 7, 10, 19, 0, 0, 0, DateTimeKind.Unspecified),
+                            FechaTres = new DateTime(2024, 7, 20, 20, 0, 0, 0, DateTimeKind.Unspecified),
+                            FechaUno = new DateTime(2024, 7, 1, 21, 0, 0, 0, DateTimeKind.Unspecified),
+                            Imagenes = "https://ik.imagekit.io/daniel2003/fotos-descripción-obras-teatro/Rey-Leon/reyleonIMG3.jpg , https://ik.imagekit.io/daniel2003/fotos-descripción-obras-teatro/Rey-Leon/reyLeonImg1.jpg , https://ik.imagekit.io/daniel2003/fotos-descripción-obras-teatro/Rey-Leon/reyleonIMG2.avif",
                             Nombre = "El Rey León"
                         },
                         new
@@ -302,11 +318,13 @@ namespace UrbanTheater.Data.Migrations
                             ObraID = 6,
                             Actores = "Elena Sánchez, Carlos Pérez, María López, José Torres, Laura Jiménez",
                             Autores = "Ana García, Luis Hernández",
-                            Cartel = "https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/BodasDeSangre/BodasDeSangre.jpg",
+                            Cartel = "https://ik.imagekit.io/daniel2003/fotos-descripción-obras-teatro/BodasDeSangre/BodasDeSangre.jpg",
                             Descripcion = "Una comedia romántica contemporánea que sigue la historia de varias parejas que se preparan para sus respectivas bodas. La obra teje una trama llena de enredos amorosos, malentendidos cómicos y momentos de reflexión sobre las relaciones y el matrimonio.",
                             Duracion = 2m,
-                            Fechas = "2024-08-02 - 21:00,2024-08-12 - 20:00, 2024-08-21 - 21:00",
-                            Imagenes = "https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/BodasDeSangre/BodasDeSangre_NF2.jpg , https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/BodasDeSangre/BodasDeSangre_NF.jpg",
+                            FechaDos = new DateTime(2024, 8, 12, 20, 0, 0, 0, DateTimeKind.Unspecified),
+                            FechaTres = new DateTime(2024, 8, 21, 21, 0, 0, 0, DateTimeKind.Unspecified),
+                            FechaUno = new DateTime(2024, 8, 2, 21, 0, 0, 0, DateTimeKind.Unspecified),
+                            Imagenes = "https://ik.imagekit.io/daniel2003/fotos-descripción-obras-teatro/BodasDeSangre/BodasDeSangre_NF2.jpg , https://ik.imagekit.io/daniel2003/fotos-descripción-obras-teatro/BodasDeSangre/BodasDeSangre_NF.jpg",
                             Nombre = "Bodas de sangre"
                         },
                         new
@@ -314,11 +332,13 @@ namespace UrbanTheater.Data.Migrations
                             ObraID = 7,
                             Actores = "Augusto González, Fernando Ardévol, Juan Luis García",
                             Autores = "Alberto Marca, Carlos Marco",
-                            Cartel = "https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/B-vocal/b-vocal_LG.jpg",
+                            Cartel = "https://ik.imagekit.io/daniel2003/fotos-descripción-obras-teatro/B-vocal/b-vocal_LG.jpg",
                             Descripcion = "Un aclamado grupo vocal que destaca por su habilidad para fusionar a cappella y comedia en sus actuaciones. B-Vocal cautiva al público con su mezcla única de música, humor y la sorprendente habilidad de crear sonidos instrumentales con sus voces, explorando diversos géneros musicales desde el pop hasta el clásico.",
                             Duracion = 1.5m,
-                            Fechas = "2024-09-01 - 21:00, 2024-09-03 - 22:30, 2024-09-10 - 23:00",
-                            Imagenes = "https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/B-vocal/b-vocal_NF.jpg , https://ik.imagekit.io/daniel2003/fotos-descripci%C3%B3n-obras-teatro/B-vocal/b.jpg",
+                            FechaDos = new DateTime(2024, 9, 3, 22, 30, 0, 0, DateTimeKind.Unspecified),
+                            FechaTres = new DateTime(2024, 9, 10, 23, 0, 0, 0, DateTimeKind.Unspecified),
+                            FechaUno = new DateTime(2024, 9, 1, 21, 0, 0, 0, DateTimeKind.Unspecified),
+                            Imagenes = "https://ik.imagekit.io/daniel2003/fotos-descripción-obras-teatro/B-vocal/b-vocal_NF.jpg , https://ik.imagekit.io/daniel2003/fotos-descripción-obras-teatro/B-vocal/b.jpg",
                             Nombre = "B-Vocal"
                         });
                 });

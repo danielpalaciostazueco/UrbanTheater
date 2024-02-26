@@ -34,6 +34,18 @@ namespace TetePizza.Controllers
         }
 
 
+        [HttpGet("/Obras/Nombre/{name}")]
+        public ActionResult<Obra> Get(string name)
+        {
+            var obra = _obraService.GetByName(name);
+
+            if (obra == null)
+                return NotFound();
+
+            return obra;
+        }
+
+
         [HttpPut("{id}")]
         public IActionResult Update(int id, Obra obra)
         {

@@ -26,6 +26,10 @@ namespace UrbanTheater.Data
             return _context.Obras.AsNoTracking().FirstOrDefault(obras => obras.ObraID == id);
         }
 
+        public Obra GetByName(string name)
+        {
+            return _context.Obras.AsNoTracking().FirstOrDefault(obras => obras.Nombre == name);
+        }
         public void Add(Obra obras)
         {
             _context.Obras.Add(obras);
