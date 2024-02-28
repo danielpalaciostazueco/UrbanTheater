@@ -1,24 +1,20 @@
 using Microsoft.EntityFrameworkCore;
 using UrbanTheater.Models;
 using System.Linq;
+using Microsoft.Extensions.Logging; 
 
 namespace UrbanTheater.Data
 {
     public class UsuarioRepository : IUsuarioRepository
     {
         private readonly UrbanTheaterAppContext _context;
-        private readonly FileLogger _logger = new FileLogger("Log.Data.txt");
+        private readonly ILogger<UsuarioRepository> _logger; 
+        
 
-        public UsuarioRepository(UrbanTheaterAppContext context)
+        public UsuarioRepository(UrbanTheaterAppContext context, ILogger<UsuarioRepository> logger)
         {
-            try
-            {
                 _context = context;
-            }
-            catch (Exception ex)
-            {
-                _logger.Log($"UsuarioRepository fallado: {ex.Message}");
-            }
+                _logger = logger;
         }
 
         public Usuario Get(string nombreUsuario, string contrasena)
@@ -32,8 +28,9 @@ namespace UrbanTheater.Data
             }
             catch (Exception ex)
             {
-                _logger.Log($"Get de Usuario fallado: {ex.Message}");
-                return null;
+                _logger.LogError(ex, "Error obteniendo el ususario.");
+                throw;
+               
             }
         }
 
@@ -42,12 +39,14 @@ namespace UrbanTheater.Data
         {
             try
             {
+                usuario.rol = 1;
                 _context.Usuarios.Add(usuario);
                 _context.SaveChanges();
             }
             catch (Exception ex)
             {
-                _logger.Log($"AddUsuario fallado: {ex.Message}");
+                _logger.LogError(ex, "Error añadiendo el usuario.");
+                throw;            
             }
         }
     }

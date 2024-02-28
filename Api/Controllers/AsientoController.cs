@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using UrbanTheater.Models;
 using UrbanTheater.Business;
 using System;
-
+using Serilog;
 namespace UrbanTheater.Api.Controllers
 {
     [ApiController]
@@ -10,7 +10,7 @@ namespace UrbanTheater.Api.Controllers
     public class AsientoController : ControllerBase
     {
         private readonly AsientoService _asientoService;
-        private readonly FileLogger _logger = new FileLogger("Log.Api.txt");
+ 
 
 
         public AsientoController(AsientoService asientoService)
@@ -27,7 +27,7 @@ namespace UrbanTheater.Api.Controllers
             }
             catch (Exception ex)
             {
-                _logger.Log($"GetAll fallado: {ex.Message}");
+                Log.Error(ex, "Error al obtener los asientos por defecto"); 
                 return StatusCode(500, "Error interno del servidor");
             }
         }

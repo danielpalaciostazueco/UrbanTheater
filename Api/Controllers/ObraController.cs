@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using UrbanTheater.Models;
 using UrbanTheater.Business;
 using System.Collections.Generic;
+using Serilog;
 
 namespace UrbanTheater.Api.Controllers
 {
@@ -10,14 +11,14 @@ namespace UrbanTheater.Api.Controllers
     public class ObraController : ControllerBase
     {
         private readonly ObraService _obraService;
-        private readonly FileLogger _logger = new FileLogger("Log.Api.txt");
+ 
 
         public ObraController(ObraService obraService)
         {
             _obraService = obraService;
         }
 
-        [HttpGet]
+       [HttpGet]
         public ActionResult<List<Obra>> GetAll()
         {
             try
@@ -26,7 +27,7 @@ namespace UrbanTheater.Api.Controllers
             }
             catch (Exception ex)
             {
-                _logger.Log($"GetAll fallado: {ex.Message}");
+                Log.Error(ex, "Error al obtener todas las obras"); 
                 return StatusCode(500, "Error interno del servidor");
             }
         }
@@ -46,7 +47,7 @@ namespace UrbanTheater.Api.Controllers
             }
             catch (Exception ex)
             {
-                _logger.Log($"Get con ID: {id} fallado: {ex.Message}");
+                Log.Error(ex, "Error al hacer el get por id "); 
                 return StatusCode(500, "Error interno del servidor");
             }
         }
@@ -66,8 +67,8 @@ namespace UrbanTheater.Api.Controllers
             }
             catch (Exception ex)
             {
-                _logger.Log($"GetByName con name: {name} fallado: {ex.Message}");
-                return StatusCode(500, "Error interno del servidor");
+                 Log.Error(ex, "Error el método de get por nombre "); 
+                return StatusCode(500, "Error interno del servidor"); 
             }
         }
 
@@ -86,7 +87,7 @@ namespace UrbanTheater.Api.Controllers
             }
             catch (Exception ex)
             {
-                _logger.Log($"Create fallado: {ex.Message}");
+                Log.Error(ex, "Error al obtener todas las obras"); 
                 return StatusCode(500, "Error interno del servidor");
             }
         }
@@ -112,7 +113,7 @@ namespace UrbanTheater.Api.Controllers
             }
             catch (Exception ex)
             {
-                _logger.Log($"Update con ID: {id} fallado: {ex.Message}");
+                  Log.Error(ex, "Error al modificar la obra por id"); 
                 return StatusCode(500, "Error interno del servidor");
             }
         }
@@ -133,7 +134,7 @@ namespace UrbanTheater.Api.Controllers
             }
             catch (Exception ex)
             {
-                _logger.Log($"Delete con ID: {id} fallado: {ex.Message}");
+                Log.Error(ex, "Error al eliminar la obra por id"); 
                 return StatusCode(500, "Error interno del servidor");
             }
         }
@@ -156,7 +157,7 @@ namespace UrbanTheater.Api.Controllers
             }
             catch (Exception ex)
             {
-                _logger.Log($"GetSeat con ID: {id} fallado: {ex.Message}");
+                Log.Error(ex, "Error al obtener los asientos ocupados"); 
                 return StatusCode(500, "Error interno del servidor");
             }
         }
@@ -182,7 +183,7 @@ namespace UrbanTheater.Api.Controllers
             }
             catch (Exception ex)
             {
-                _logger.Log($"AddAsientosToSession con ID: {id} fallado: {ex.Message}");
+                 Log.Error(ex, "Error al añadir los asientos"); 
                 return StatusCode(500, "Error interno del servidor");
             }
 

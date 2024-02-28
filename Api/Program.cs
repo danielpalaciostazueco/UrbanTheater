@@ -2,6 +2,8 @@ using UrbanTheater.Business;
 using UrbanTheater.Api;
 using UrbanTheater.Models;
 using UrbanTheater.Data;
+using Serilog;
+using Serilog.Events;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -29,8 +31,7 @@ builder.Services.AddScoped<AsientoService>();
 builder.Services.AddScoped<IAsientoRepository, AsientoRepository>();
 builder.Services.AddScoped<UsuarioService>();
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
-builder.Services.AddScoped<AdministradorService>();
-builder.Services.AddScoped<IAdministradorRepository, AdministradorRepository>();
+
 
 
 builder.Services.AddCors(options =>
@@ -41,6 +42,18 @@ builder.Services.AddCors(options =>
               .AllowAnyMethod()
               .AllowAnyHeader();
     });
+});
+
+builder.Host.UseSerilog((ctx, config) =>
+{
+    config
+        .MinimumLevel.Override("Microsoft", LogEventLevel.Warning) 
+        .MinimumLevel.Debug() 
+        .WriteTo.Console()
+        .WriteTo.File(
+            path: "Logs/Log.Api.txt",
+            restrictedToMinimumLevel: LogEventLevel.Error 
+        );
 });
 
 var app = builder.Build();

@@ -1,25 +1,21 @@
 using UrbanTheater.Models;
 using UrbanTheater.Data;
 using System.Collections.Generic;
+using Microsoft.Extensions.Logging; 
 
 namespace UrbanTheater.Business
 {
     public class AsientoService : IAsientoService
     {
         private readonly IAsientoRepository _asientoRepository;
-        private readonly FileLogger _logger = new FileLogger("Log.Business.txt");
+        private readonly ILogger<AsientoService> _logger; 
+       
 
-        public AsientoService(IAsientoRepository asientoRepository)
+        public AsientoService(IAsientoRepository asientoRepository, ILogger<AsientoService> logger)
         {
-            try
-            {
                 _asientoRepository = asientoRepository;
-            }
-            catch (Exception ex)
-            {
-                _logger.Log($"AsientoService fallado: {ex.Message}");
-            }
-
+                 _logger = logger; 
+           
         }
 
         public List<Asiento> GetAll()
@@ -30,8 +26,8 @@ namespace UrbanTheater.Business
             }
             catch (Exception ex)
             {
-                _logger.Log($"GetAll de Asiento fallado: {ex.Message}");
-                return null;
+              _logger.LogError(ex, "Error obteniendo los asientos por defecto.");
+                throw; 
             }
         }
     }

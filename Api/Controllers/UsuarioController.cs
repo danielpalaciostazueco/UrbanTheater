@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using UrbanTheater.Models;
 using UrbanTheater.Business;
-
+using Serilog; 
 namespace UrbanTheater.Api.Controllers
 {
     [ApiController]
@@ -9,7 +9,7 @@ namespace UrbanTheater.Api.Controllers
     public class UsuarioController : ControllerBase
     {
         private readonly UsuarioService _usuarioService;
-        private readonly FileLogger _logger = new FileLogger("Log.Api.txt");
+    
 
 
         public UsuarioController(UsuarioService usuarioService)
@@ -18,27 +18,8 @@ namespace UrbanTheater.Api.Controllers
         }
 
 
-        [HttpGet("{nombreUsuario}/Contrasena/{contrasena}")]
-        public ActionResult<Usuario> GetUsuario(string nombreUsuario, string contrasena)
-        {
-            try
-            {
-                var usuario = _usuarioService.Get(nombreUsuario, contrasena);
-                if (usuario == null)
-                {
-                    return NotFound();
-                }
-                return Ok(usuario);
 
-            }
-            catch (Exception ex)
-            {
-                _logger.Log($"Get con nombre de usuario: {nombreUsuario} y contraseña: {contrasena} fallado: {ex.Message}");
-                return StatusCode(500, "Error interno del servidor");
-            }
-        }
-
-        [HttpPost]
+        [HttpPost("Register")]
         public IActionResult AddUsuario([FromBody] Usuario usuarioRequest)
         {
             try
@@ -47,15 +28,23 @@ namespace UrbanTheater.Api.Controllers
                 {
                     return BadRequest("El nombre de usuario y la contraseña son obligatorios.");
                 }
+                var usuario = _usuarioService.Get(usuarioRequest.nombreUsuario, usuarioRequest.contrasena);
+                if(usuario == null){
+                   _usuarioService.AddUsuario(usuarioRequest); 
+                   return Ok(usuarioRequest);
+                }
 
-                _usuarioService.AddUsuario(usuarioRequest);
-                return CreatedAtAction(nameof(GetUsuario), new { nombreUsuario = usuarioRequest.nombreUsuario, contrasena = usuarioRequest.contrasena }, usuarioRequest);
+                if(usuario != null && usuario.nombreUsuario != usuarioRequest.nombreUsuario || usuario.contrasena != usuarioRequest.contrasena)
+                {
+                    return NotFound();
+                }
 
+                return Ok(usuario);
             }
             catch (Exception ex)
             {
-                _logger.Log($"AddUsuario fallado: {ex.Message}");
-                return StatusCode(500, "Error interno del servidor");
+                Log.Error(ex, "Error al añadir el usuario."); 
+                return StatusCode(500, "Error interno del servidor.");
             }
         }
     }

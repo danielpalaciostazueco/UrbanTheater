@@ -12,7 +12,7 @@ using UrbanTheater.Data;
 namespace UrbanTheater.Data.Migrations
 {
     [DbContext(typeof(UrbanTheaterAppContext))]
-    [Migration("20240228073326_InitialCreate")]
+    [Migration("20240228192909_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -24,35 +24,6 @@ namespace UrbanTheater.Data.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
-
-            modelBuilder.Entity("UrbanTheater.Models.Administrador", b =>
-                {
-                    b.Property<int>("idAdministrador")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("idAdministrador"));
-
-                    b.Property<string>("contrasena")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("nombreAdministrador")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("idAdministrador");
-
-                    b.ToTable("Administradores");
-
-                    b.HasData(
-                        new
-                        {
-                            idAdministrador = 1,
-                            contrasena = "Daniel_Admin123",
-                            nombreAdministrador = "Daniel_Admin"
-                        });
-                });
 
             modelBuilder.Entity("UrbanTheater.Models.Asiento", b =>
                 {
@@ -203,9 +174,11 @@ namespace UrbanTheater.Data.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ObraID"));
 
                     b.Property<string>("Actores")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Autores")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Cartel")
@@ -217,6 +190,7 @@ namespace UrbanTheater.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal?>("Duracion")
+                        .IsRequired()
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<DateTime>("FechaDos")
@@ -229,6 +203,7 @@ namespace UrbanTheater.Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Imagenes")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Nombre")
@@ -356,6 +331,9 @@ namespace UrbanTheater.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("rol")
+                        .HasColumnType("int");
+
                     b.HasKey("idUsuario");
 
                     b.ToTable("Usuarios");
@@ -364,8 +342,9 @@ namespace UrbanTheater.Data.Migrations
                         new
                         {
                             idUsuario = 1,
-                            contrasena = "Daniel123",
-                            nombreUsuario = "Daniel"
+                            contrasena = "Daniel_Admin123",
+                            nombreUsuario = "Daniel_Admin",
+                            rol = 1
                         });
                 });
 #pragma warning restore 612, 618

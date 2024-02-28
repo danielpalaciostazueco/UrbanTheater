@@ -11,14 +11,24 @@ public class Obra
 
     [Key]
     public int ObraID { get; set; }
+    [Required]
     public string Nombre { get; set; }
+    [Required]
     public string Descripcion { get; set; }
+    [Required]
     public string? Autores { get; set; }
+    [Required]
     public decimal? Duracion { get; set; }
+    [Required]
     public string? Actores { get; set; }
+    [Required]
     public string? Imagenes { get; set; }
+    [Required]
     public DateTime FechaUno { get; set; }
+    [Required]
     public DateTime FechaDos { get; set; }
+    [Required]
     public DateTime FechaTres { get; set; }
+    [Required]
     public string Cartel { get; set; }
 }

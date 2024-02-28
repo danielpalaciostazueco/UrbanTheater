@@ -1,16 +1,19 @@
 using UrbanTheater.Data;
 using UrbanTheater.Models;
+using Microsoft.Extensions.Logging; 
 
 namespace UrbanTheater.Business
 {
     public class UsuarioService : IUsuarioService
     {
         private readonly IUsuarioRepository _usuarioRepository;
-        private readonly FileLogger _logger = new FileLogger("Log.Business.txt");
+         private readonly ILogger<UsuarioService> _logger; 
+     
 
-        public UsuarioService(IUsuarioRepository usuarioRepository)
+        public UsuarioService(IUsuarioRepository usuarioRepository, ILogger<UsuarioService> logger)
         {
             _usuarioRepository = usuarioRepository;
+            _logger = logger; 
         }
 
         public Usuario Get(string nombreUsuario, string contrasena)
@@ -21,8 +24,8 @@ namespace UrbanTheater.Business
             }
             catch (Exception ex)
             {
-                _logger.Log($"Get de Usuario fallado: {ex.Message}");
-                return null;
+                 _logger.LogError(ex, "Error obteniendo el usuario.");
+                throw;
             }
         }
 
@@ -34,7 +37,8 @@ namespace UrbanTheater.Business
             }
             catch (Exception ex)
             {
-                _logger.Log($"AddUsuario fallado: {ex.Message}");
+                _logger.LogError(ex, "Error añadiendo el usuario.");
+                throw;
             }
         }
     }

@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using UrbanTheater.Models;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.Extensions.Logging; 
 using UrbanTheater.Data;
 
 namespace UrbanTheater.Data
@@ -9,18 +10,14 @@ namespace UrbanTheater.Data
     public class AsientoRepository : IAsientoRepository
     {
         private readonly UrbanTheaterAppContext _context;
-        private readonly FileLogger _logger = new FileLogger("Log.Data.txt");
+        private readonly ILogger<AsientoRepository> _logger;
 
-        public AsientoRepository(UrbanTheaterAppContext context)
+
+        public AsientoRepository(UrbanTheaterAppContext context, ILogger<AsientoRepository> logger)
         {
-            try
-            {
-                _context = context;
-            }
-            catch (Exception ex)
-            {
-                _logger.Log($"AsientoRepository fallado: {ex.Message}");
-            }
+             _context = context;
+                _logger = logger; 
+           
         }
         public List<Asiento> GetAll()
         {
@@ -30,8 +27,8 @@ namespace UrbanTheater.Data
             }
             catch (Exception ex)
             {
-                _logger.Log($"GetAll de Asiento fallado: {ex.Message}");
-                return null;
+                 _logger.LogError(ex, "Error obteniendo los asientos por defecto.");
+                throw;
             }
         }
 

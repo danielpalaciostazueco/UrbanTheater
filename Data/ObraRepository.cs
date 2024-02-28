@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using UrbanTheater.Models;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.Extensions.Logging; 
 using UrbanTheater.Data;
 
 namespace UrbanTheater.Data
@@ -9,18 +10,14 @@ namespace UrbanTheater.Data
     public class ObraRepository : IObraRepository
     {
         private readonly UrbanTheaterAppContext _context;
-        private readonly FileLogger _logger = new FileLogger("Log.Data.txt");
+        private readonly ILogger<ObraRepository> _logger; 
 
-        public ObraRepository(UrbanTheaterAppContext context)
+
+        public ObraRepository(UrbanTheaterAppContext context, ILogger<ObraRepository> logger)
         {
-            try
-            {
+            
                 _context = context;
-            }
-            catch (Exception ex)
-            {
-                _logger.Log($"ObraRepository fallado: {ex.Message}");
-            }
+                _logger = logger;     
         }
 
         public List<Obra> GetAll()
@@ -31,8 +28,8 @@ namespace UrbanTheater.Data
             }
             catch (Exception ex)
             {
-                _logger.Log($"GetAll de Obra fallado: {ex.Message}");
-                return null;
+               _logger.LogError(ex, "Error obteniendo las obras.");
+                throw;
             }
 
         }
@@ -45,8 +42,9 @@ namespace UrbanTheater.Data
             }
             catch (Exception ex)
             {
-                _logger.Log($"Get de Obra fallado: {ex.Message}");
-                return null;
+                _logger.LogError(ex, "Error obteniendo obra por id.");
+                throw;
+               
             }
         }
 
@@ -58,9 +56,8 @@ namespace UrbanTheater.Data
             }
             catch (Exception ex)
             {
-                _logger.Log($"Get de Obra fallado: {ex.Message}");
-                return null;
-
+                _logger.LogError(ex, "Error obteniendo la obra por nombre.");
+                throw;
             }
         }
         public void Add(Obra obras)
@@ -72,8 +69,8 @@ namespace UrbanTheater.Data
             }
             catch (Exception ex)
             {
-                _logger.Log($"Add de Obra fallado: {ex.Message}");
-
+                 _logger.LogError(ex, "Error al añadir la obra.");
+                throw;
             }
         }
 
@@ -86,8 +83,8 @@ namespace UrbanTheater.Data
             }
             catch (Exception ex)
             {
-                _logger.Log($"Update de Obra fallado: {ex.Message}");
-
+                _logger.LogError(ex, "Error al añadir la obra.");
+                throw;   
             }
         }
 
@@ -102,7 +99,8 @@ namespace UrbanTheater.Data
             }
             catch (Exception ex)
             {
-                _logger.Log($"Delete de Obra fallado: {ex.Message}");
+                _logger.LogError(ex, "Error al eliminar la obra.");
+                throw;
 
             }
         }
@@ -121,8 +119,9 @@ namespace UrbanTheater.Data
             }
             catch (Exception ex)
             {
-                _logger.Log($"GetObrasAsientos de Obra fallado: {ex.Message}");
-                return null;
+                _logger.LogError(ex, "Error al obtener los asientos ocupados.");
+                throw;
+               
             }
         }
 
@@ -143,8 +142,8 @@ namespace UrbanTheater.Data
             }
             catch (Exception ex)
             {
-                _logger.Log($"AddAsientoToObra de Obra fallado: {ex.Message}");
-
+                _logger.LogError(ex, "Error añadir los asientos ocupados.");
+                throw;
             }
         }
 

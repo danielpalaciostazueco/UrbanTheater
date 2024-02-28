@@ -14,20 +14,6 @@ namespace UrbanTheater.Data.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Administradores",
-                columns: table => new
-                {
-                    idAdministrador = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    nombreAdministrador = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    contrasena = table.Column<string>(type: "nvarchar(max)", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Administradores", x => x.idAdministrador);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Asientos",
                 columns: table => new
                 {
@@ -63,10 +49,10 @@ namespace UrbanTheater.Data.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Autores = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Duracion = table.Column<decimal>(type: "decimal(18,2)", nullable: true),
-                    Actores = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Imagenes = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Autores = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Duracion = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    Actores = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Imagenes = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     FechaUno = table.Column<DateTime>(type: "datetime2", nullable: false),
                     FechaDos = table.Column<DateTime>(type: "datetime2", nullable: false),
                     FechaTres = table.Column<DateTime>(type: "datetime2", nullable: false),
@@ -84,17 +70,13 @@ namespace UrbanTheater.Data.Migrations
                     idUsuario = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     nombreUsuario = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    contrasena = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    contrasena = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    rol = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Usuarios", x => x.idUsuario);
                 });
-
-            migrationBuilder.InsertData(
-                table: "Administradores",
-                columns: new[] { "idAdministrador", "contrasena", "nombreAdministrador" },
-                values: new object[] { 1, "Daniel_Admin123", "Daniel_Admin" });
 
             migrationBuilder.InsertData(
                 table: "Asientos",
@@ -139,16 +121,13 @@ namespace UrbanTheater.Data.Migrations
 
             migrationBuilder.InsertData(
                 table: "Usuarios",
-                columns: new[] { "idUsuario", "contrasena", "nombreUsuario" },
-                values: new object[] { 1, "Daniel123", "Daniel" });
+                columns: new[] { "idUsuario", "contrasena", "nombreUsuario", "rol" },
+                values: new object[] { 1, "Daniel_Admin123", "Daniel_Admin", 1 });
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropTable(
-                name: "Administradores");
-
             migrationBuilder.DropTable(
                 name: "Asientos");
 

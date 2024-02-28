@@ -13,13 +13,9 @@ namespace UrbanTheater.Data
         public DbSet<Asiento> Asientos { get; set; }
         public DbSet<AsientosObrasDatos> AsientosObrasDatos { get; set; }
         public DbSet<Usuario> Usuarios { get; set; }
-        public DbSet<Administrador> Administradores { get; set; }
-
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
-
             modelBuilder.Entity<Obra>().HasData(
                    new Obra
                    {
@@ -223,21 +219,15 @@ namespace UrbanTheater.Data
                     isFree = true
                 }
             );
-            modelBuilder.Entity<Administrador>().HasData(
-                new Administrador
-                {
-                    idAdministrador = 1,
-                    nombreAdministrador = "Daniel_Admin",
-                    contrasena = "Daniel_Admin123"
-                }
-            );
-            modelBuilder.Entity<Usuario>().HasData(
+           modelBuilder.Entity<Usuario>().HasData(
                 new Usuario
                 {
                     idUsuario = 1,
-                    nombreUsuario = "Daniel",
-                    contrasena = "Daniel123"
+                    nombreUsuario = "Daniel_Admin",
+                    contrasena = "Daniel_Admin123",
+                    rol = 2
                 }
+
             );
         }
     }

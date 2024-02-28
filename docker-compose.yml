@@ -33,12 +33,4 @@ services:
       - db
     environment:
       - DOCKER_CONTAINER=true
-  web:
-    container_name: webContainer
-    image: p1003
-    ports:
-      - "9000:80"
-    depends_on:
-      - api
-    networks:
-      - backend
+ 
