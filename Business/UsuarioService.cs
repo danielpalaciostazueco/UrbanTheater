@@ -6,6 +6,7 @@ namespace UrbanTheater.Business
     public class UsuarioService : IUsuarioService
     {
         private readonly IUsuarioRepository _usuarioRepository;
+        private readonly FileLogger _logger = new FileLogger("Log.Business.txt");
 
         public UsuarioService(IUsuarioRepository usuarioRepository)
         {
@@ -14,12 +15,27 @@ namespace UrbanTheater.Business
 
         public Usuario Get(string nombreUsuario, string contrasena)
         {
-            return _usuarioRepository.Get(nombreUsuario, contrasena);
+            try
+            {
+                return _usuarioRepository.Get(nombreUsuario, contrasena);
+            }
+            catch (Exception ex)
+            {
+                _logger.Log($"Get de Usuario fallado: {ex.Message}");
+                return null;
+            }
         }
 
         public void AddUsuario(Usuario usuario)
         {
-            _usuarioRepository.AddUsuario(usuario);
+            try
+            {
+                _usuarioRepository.AddUsuario(usuario);
+            }
+            catch (Exception ex)
+            {
+                _logger.Log($"AddUsuario fallado: {ex.Message}");
+            }
         }
     }
 }

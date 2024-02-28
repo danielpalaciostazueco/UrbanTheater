@@ -7,13 +7,31 @@ namespace UrbanTheater.Business
     public class AdministradorService : IAdministradorService
     {
         private readonly IAdministradorRepository _administradorRepository;
+        private readonly FileLogger _logger = new FileLogger("Log.Business.txt");
 
         public AdministradorService(IAdministradorRepository administradorRepository)
         {
-            _administradorRepository = administradorRepository;
+            try
+            {
+                _administradorRepository = administradorRepository;
+            }
+            catch (Exception ex)
+            {
+                _logger.Log($"AdministradorService fallado: {ex.Message}");
+            }
         }
 
-        public Administrador? Get(string nombre, string contrasena) =>
-            _administradorRepository.Get(nombre, contrasena);
+        public Administrador? Get(string nombre, string contrasena)
+        {
+            try
+            {
+                return _administradorRepository.Get(nombre, contrasena);
+            }
+            catch (Exception ex)
+            {
+                _logger.Log($"Get de Administrador fallado: {ex.Message}");
+                return null;
+            }
+        }
     }
 }

@@ -3427,19 +3427,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\palac\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\palac\\Desktop\\Nueva carpeta\\UrbanTheater\\Business\\UrbanTheater.Business.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\UrbanTheater\\Business\\UrbanTheater.Business.csproj",
       "projectName": "UrbanTheater.Business",
-      "projectPath": "C:\\Users\\palac\\Desktop\\Nueva carpeta\\UrbanTheater\\Business\\UrbanTheater.Business.csproj",
-      "packagesPath": "C:\\Users\\palac\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\palac\\Desktop\\Nueva carpeta\\UrbanTheater\\Business\\obj\\",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\UrbanTheater\\Business\\UrbanTheater.Business.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\UrbanTheater\\Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\palac\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -3451,11 +3451,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\palac\\Desktop\\Nueva carpeta\\UrbanTheater\\Data\\UrbanTheater.Data.csproj": {
-              "projectPath": "C:\\Users\\palac\\Desktop\\Nueva carpeta\\UrbanTheater\\Data\\UrbanTheater.Data.csproj"
+            "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\UrbanTheater\\Data\\UrbanTheater.Data.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\UrbanTheater\\Data\\UrbanTheater.Data.csproj"
             },
-            "C:\\Users\\palac\\Desktop\\Nueva carpeta\\UrbanTheater\\Models\\UrbanTheater.Models.csproj": {
-              "projectPath": "C:\\Users\\palac\\Desktop\\Nueva carpeta\\UrbanTheater\\Models\\UrbanTheater.Models.csproj"
+            "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\UrbanTheater\\Models\\UrbanTheater.Models.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\Curso23-24-San-Valero\\UrbanTheater\\Models\\UrbanTheater.Models.csproj"
             }
           }
         }
@@ -3485,7 +3485,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

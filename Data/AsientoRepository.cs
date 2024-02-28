@@ -9,12 +9,31 @@ namespace UrbanTheater.Data
     public class AsientoRepository : IAsientoRepository
     {
         private readonly UrbanTheaterAppContext _context;
+        private readonly FileLogger _logger = new FileLogger("Log.Data.txt");
 
         public AsientoRepository(UrbanTheaterAppContext context)
         {
-            _context = context;
+            try
+            {
+                _context = context;
+            }
+            catch (Exception ex)
+            {
+                _logger.Log($"AsientoRepository fallado: {ex.Message}");
+            }
         }
-        public List<Asiento> GetAll() => _context.Asientos.ToList();
+        public List<Asiento> GetAll()
+        {
+            try
+            {
+                return _context.Asientos.ToList();
+            }
+            catch (Exception ex)
+            {
+                _logger.Log($"GetAll de Asiento fallado: {ex.Message}");
+                return null;
+            }
+        }
 
     }
 }

@@ -10,6 +10,7 @@ namespace UrbanTheater.Api.Controllers
     public class AdministradorController : ControllerBase
     {
         private readonly AdministradorService _administradorService;
+        private readonly FileLogger _logger = new FileLogger("Log.Api.txt");
 
         public AdministradorController(AdministradorService administradorService)
         {
@@ -20,14 +21,23 @@ namespace UrbanTheater.Api.Controllers
         [HttpGet("{nombreUsuario}/Contrasena/{contrasena}")]
         public ActionResult<Administrador> GetUsuario(string nombreUsuario, string contrasena)
         {
-            var administrador = _administradorService.Get(nombreUsuario, contrasena);
-            if (administrador == null)
+            try
             {
-                return NotFound();
+                var administrador = _administradorService.Get(nombreUsuario, contrasena);
+                if (administrador == null)
+                {
+                    return NotFound();
+                }
+                return Ok(administrador);
+
             }
-            return Ok(administrador);
+            catch (Exception ex)
+            {
+                _logger.Log($"GetUsuario fallado: {ex.Message}");
+                return StatusCode(500, "Error interno del servidor");
+            }
         }
-    
+
 
     }
 }

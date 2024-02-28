@@ -35,7 +35,7 @@ services:
       - DOCKER_CONTAINER=true
   web:
     container_name: webContainer
-    image: p-teatro-15
+    image: p1003
     ports:
       - "9000:80"
     depends_on:

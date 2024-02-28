@@ -2,7 +2,6 @@ using UrbanTheater.Business;
 using UrbanTheater.Api;
 using UrbanTheater.Models;
 using UrbanTheater.Data;
-using TetePizza.Controllers;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
