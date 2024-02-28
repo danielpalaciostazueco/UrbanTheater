@@ -12,7 +12,7 @@ using UrbanTheater.Data;
 namespace UrbanTheater.Data.Migrations
 {
     [DbContext(typeof(UrbanTheaterAppContext))]
-    [Migration("20240225155655_InitialCreate")]
+    [Migration("20240228073326_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -188,9 +188,6 @@ namespace UrbanTheater.Data.Migrations
 
                     b.Property<int>("idSesion")
                         .HasColumnType("int");
-
-                    b.Property<bool>("isFree")
-                        .HasColumnType("bit");
 
                     b.HasKey("idObjeto");
 

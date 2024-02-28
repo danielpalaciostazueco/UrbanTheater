@@ -8,11 +8,11 @@ namespace TetePizza.Controllers
     [ApiController]
     [Route("[controller]")]
 
-    public class ObrasController : ControllerBase
+    public class ObraController : ControllerBase
     {
-        private readonly ObrasService _obraService;
+        private readonly ObraService _obraService;
 
-        public ObrasController(ObrasService obraService)
+        public ObraController(ObraService obraService)
         {
             _obraService = obraService;
         }
@@ -88,12 +88,12 @@ namespace TetePizza.Controllers
         }
 
 
-        [HttpGet("{id}/Session/{sessionId}/Seat")]
-        public ActionResult<List<AsientoDTO>> GetSeat(int id, int sessionId)
+        [HttpGet("{id}/Session/{sessionId}/Seats")]
+        public ActionResult<ReservaAsientoDTO> GetSeat(int id, int sessionId)
         {
             var asientosId = _obraService.GetObrasAsientos(id, sessionId);
 
-            if (asientosId == null || asientosId.Count == 0)
+            if (asientosId == null )
             {
                 return NotFound("No se ha encontrado la obra.");
             }
@@ -102,17 +102,17 @@ namespace TetePizza.Controllers
         }
 
 
-        [HttpPost("{id}/Session/{sessionId}/AddAsientos")]
-        public IActionResult AddAsientosToSession(int id, int sessionId, [FromBody] List<Asiento> asientoRequests)
+        [HttpPost("{id}/Session/{sessionId}/Seats")]
+        public IActionResult AddAsientosToSession(int id, int sessionId, [FromBody] ReservaAsientoDTO asientoRequests)
         {
-            if (asientoRequests == null || asientoRequests.Count == 0)
+            if (asientoRequests == null )
             {
                 return BadRequest("No hay información de asiento para agregar.");
             }
 
-            foreach (var asientoRequest in asientoRequests)
+            foreach (var asientoRequest in asientoRequests.asientos)
             {
-                _obraService.AddAsientoToObra(id, sessionId, asientoRequest.idAsiento, asientoRequest.isFree);
+                _obraService.AddAsientoToObra(id, sessionId, asientoRequest);
             }
 
             return Ok("Asientos añadidos correctamente.");

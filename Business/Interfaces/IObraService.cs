@@ -3,7 +3,7 @@ using UrbanTheater.Models; // Asegúrate de que el namespace sea correcto para t
 
 namespace UrbanTheater.Business
 {
-    public interface IObrasService
+    public interface IObraService
     {
         List<Obra> GetAll();
         Obra? Get(int id);
@@ -12,7 +12,7 @@ namespace UrbanTheater.Business
         void Add(Obra obra);
         void Delete(int id);
         List<int> GetObrasAsientos(int ObraID, int IdSesion);
-        void AddAsientoToObra(int obraId, int sessionId, int idAsiento, bool isFree);
+        void AddAsientoToObra(int obraId, int sessionId, int idAsiento);
 
     }
 }

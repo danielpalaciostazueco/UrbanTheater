@@ -48,8 +48,7 @@ namespace UrbanTheater.Data.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     idObra = table.Column<int>(type: "int", nullable: false),
                     idSesion = table.Column<int>(type: "int", nullable: false),
-                    idAsiento = table.Column<int>(type: "int", nullable: false),
-                    isFree = table.Column<bool>(type: "bit", nullable: false)
+                    idAsiento = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {

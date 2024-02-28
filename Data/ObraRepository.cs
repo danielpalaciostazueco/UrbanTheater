@@ -6,11 +6,11 @@ using UrbanTheater.Data;
 
 namespace UrbanTheater.Data
 {
-    public class ObrasRepository : IObrasRepository
+    public class ObraRepository : IObraRepository
     {
         private readonly UrbanTheaterAppContext _context;
 
-        public ObrasRepository(UrbanTheaterAppContext context)
+        public ObraRepository(UrbanTheaterAppContext context)
         {
             _context = context;
         }
@@ -66,14 +66,13 @@ namespace UrbanTheater.Data
         }
 
 
-        public void AddAsientoToObra(int obraId, int sessionId, int idAsiento, bool isFree)
+        public void AddAsientoToObra(int obraId, int sessionId, int idAsiento)
         {
             var nuevoAsiento = new AsientosObrasDatos
             {
                 idObra = obraId,
                 idSesion = sessionId,
                 idAsiento = idAsiento,
-                isFree = isFree
             };
 
             _context.AsientosObrasDatos.Add(nuevoAsiento);

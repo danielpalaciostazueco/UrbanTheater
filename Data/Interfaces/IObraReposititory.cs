@@ -3,7 +3,7 @@ using UrbanTheater.Models;
 
 namespace UrbanTheater.Data
 {
-    public interface IObrasRepository
+    public interface IObraRepository
     {
         List<Obra> GetAll();
         Obra Get(int id);
@@ -12,6 +12,6 @@ namespace UrbanTheater.Data
         void Add(Obra obra);
         void Delete(int id);
         List<int> GetObrasAsientos(int ObraID, int IdSesion);
-        void AddAsientoToObra(int obraId, int sessionId, int idAsiento, bool isFree);
+        void AddAsientoToObra(int obraId, int sessionId, int idAsiento);
     }
 }

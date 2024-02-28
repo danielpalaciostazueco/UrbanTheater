@@ -4,9 +4,9 @@ using System.ComponentModel.DataAnnotations;
 
 namespace UrbanTheater.Models;
 
-public class AsientoDTO
+public class ReservaAsientoDTO
 {
-    public AsientoDTO() { }
+    public ReservaAsientoDTO() { }
 
 
     public List<int> asientos { get; set; }

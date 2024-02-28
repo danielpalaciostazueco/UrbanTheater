@@ -24,10 +24,10 @@ builder.Services.AddDbContext<UrbanTheaterAppContext>(options =>
             errorNumbersToAdd: null);
     }));
 
-builder.Services.AddScoped<ObrasService>();
-builder.Services.AddScoped<IObrasRepository, ObrasRepository>();
-builder.Services.AddScoped<AsientosService>();
-builder.Services.AddScoped<IAsientosRepository, AsientosRepository>();
+builder.Services.AddScoped<ObraService>();
+builder.Services.AddScoped<IObraRepository, ObraRepository>();
+builder.Services.AddScoped<AsientoService>();
+builder.Services.AddScoped<IAsientoRepository, AsientoRepository>();
 builder.Services.AddScoped<UsuarioService>();
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddScoped<AdministradorService>();

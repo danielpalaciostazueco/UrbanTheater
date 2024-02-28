@@ -6,11 +6,11 @@ using UrbanTheater.Data;
 
 namespace UrbanTheater.Data
 {
-    public class AsientosRepository : IAsientosRepository
+    public class AsientoRepository : IAsientoRepository
     {
         private readonly UrbanTheaterAppContext _context;
 
-        public AsientosRepository(UrbanTheaterAppContext context)
+        public AsientoRepository(UrbanTheaterAppContext context)
         {
             _context = context;
         }

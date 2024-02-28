@@ -186,9 +186,6 @@ namespace UrbanTheater.Data.Migrations
                     b.Property<int>("idSesion")
                         .HasColumnType("int");
 
-                    b.Property<bool>("isFree")
-                        .HasColumnType("bit");
-
                     b.HasKey("idObjeto");
 
                     b.ToTable("AsientosObrasDatos");

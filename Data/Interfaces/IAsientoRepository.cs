@@ -3,7 +3,7 @@ using UrbanTheater.Models;
 
 namespace UrbanTheater.Data
 {
-    public interface IAsientosRepository
+    public interface IAsientoRepository
     {
         List<Asiento> GetAll();
     }

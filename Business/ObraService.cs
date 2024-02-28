@@ -4,11 +4,11 @@ using System.Collections.Generic;
 
 namespace UrbanTheater.Business
 {
-    public class ObrasService : IObrasService
+    public class ObraService : IObraService
     {
-        private readonly IObrasRepository _obraRepository;
+        private readonly IObraRepository _obraRepository;
 
-        public ObrasService(IObrasRepository obraRepository)
+        public ObraService(IObraRepository obraRepository)
         {
             _obraRepository = obraRepository;
         }
@@ -29,9 +29,9 @@ namespace UrbanTheater.Business
         }
 
 
-        public void AddAsientoToObra(int obraId, int sessionId, int idAsiento, bool isFree)
+        public void AddAsientoToObra(int obraId, int sessionId, int idAsiento)
         {
-            _obraRepository.AddAsientoToObra(obraId, sessionId, idAsiento, isFree);
+            _obraRepository.AddAsientoToObra(obraId, sessionId, idAsiento);
         }
 
 

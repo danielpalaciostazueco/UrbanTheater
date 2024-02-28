@@ -3,7 +3,7 @@ using UrbanTheater.Models;
 
 namespace UrbanTheater.Business
 {
-    public interface IAsientosService
+    public interface IAsientoService
     {
         List<Asiento> GetAll();
     }
