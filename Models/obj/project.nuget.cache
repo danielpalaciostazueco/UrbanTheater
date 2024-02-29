@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vtMf9YACdBoZLH53yDoIfBXH2wyJnnpn08WwG+0NEI3QFdAZ9ED63KYSJIKQmVlIRyLHc15kyC+Zj6kHojKGyg==",
+  "dgSpecHash": "7EZoveaayI5M1CNkkFtIfwPC4IYn0T5E47WWW8boWW8qa/s4k3tBtXUY5djKgDGISebh/jNyOpLZRz828JI8Lg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\S2-PC00\\Downloads\\UrbanTheater\\Models\\UrbanTheater.Models.csproj",
+  "projectFilePath": "C:\\Users\\S2-PC00\\UrbanTheater\\Models\\UrbanTheater.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

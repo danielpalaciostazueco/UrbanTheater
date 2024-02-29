@@ -225,7 +225,7 @@ namespace UrbanTheater.Data
                     idUsuario = 1,
                     nombreUsuario = "Daniel_Admin",
                     contrasena = "Daniel_Admin123",
-                    rol = 2
+                    rol = 1
                 }
 
             );
