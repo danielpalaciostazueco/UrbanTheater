@@ -39,7 +39,7 @@ namespace UrbanTheater.Data
         {
             try
             {
-                usuario.rol = 1;
+                usuario.rol = 3;
                 _context.Usuarios.Add(usuario);
                 _context.SaveChanges();
             }

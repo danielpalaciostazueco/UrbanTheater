@@ -91,7 +91,7 @@ namespace UrbanTheater.Api.Controllers
                 return StatusCode(500, "Error interno del servidor");
             }
         }
-
+   
         [HttpPut("{id}")]
         public IActionResult Update(int id, Obra obra)
         {
@@ -140,7 +140,7 @@ namespace UrbanTheater.Api.Controllers
         }
 
 
-        [HttpGet("{id}/Session/{sessionId}/Seats")]
+        [HttpGet("{id}/Session")]
         public ActionResult<ReservaAsientoDTO> GetSeat(int id, int sessionId)
         {
             try
@@ -163,7 +163,7 @@ namespace UrbanTheater.Api.Controllers
         }
 
 
-        [HttpPost("{id}/Session/{sessionId}/Seats")]
+        [HttpPost("{id}/Session")]
         public IActionResult AddAsientosToSession(int id, int sessionId, [FromBody] ReservaAsientoDTO asientoRequests)
         {
             try

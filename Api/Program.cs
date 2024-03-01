@@ -44,18 +44,19 @@ builder.Services.AddCors(options =>
     });
 });
 
-builder.Host.UseSerilog((ctx, config) =>
-{
-    config
-        .MinimumLevel.Override("Microsoft", LogEventLevel.Warning) 
-        .MinimumLevel.Debug() 
-        .WriteTo.Console()
-        .WriteTo.File(
-            path: "Logs/Log.Api.txt",
-            restrictedToMinimumLevel: LogEventLevel.Error 
-        );
-});
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Debug() 
+    .MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
+    .Enrich.FromLogContext()
+    .WriteTo.Console()
+    .WriteTo.File(
+        "Logs/Log.Api.txt", 
+        restrictedToMinimumLevel: LogEventLevel.Error      
+    )
+    .CreateLogger();
 
+
+builder.Host.UseSerilog();
 var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI();
