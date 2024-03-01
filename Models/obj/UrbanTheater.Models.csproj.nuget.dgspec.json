@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\palac\\Desktop\\Nueva carpeta (3)\\UrbanTheater\\Models\\UrbanTheater.Models.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\UrbanTheater\\Models\\UrbanTheater.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\palac\\Desktop\\Nueva carpeta (3)\\UrbanTheater\\Models\\UrbanTheater.Models.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\UrbanTheater\\Models\\UrbanTheater.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\palac\\Desktop\\Nueva carpeta (3)\\UrbanTheater\\Models\\UrbanTheater.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\UrbanTheater\\Models\\UrbanTheater.Models.csproj",
         "projectName": "UrbanTheater.Models",
-        "projectPath": "C:\\Users\\palac\\Desktop\\Nueva carpeta (3)\\UrbanTheater\\Models\\UrbanTheater.Models.csproj",
-        "packagesPath": "C:\\Users\\palac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\palac\\Desktop\\Nueva carpeta (3)\\UrbanTheater\\Models\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\UrbanTheater\\Models\\UrbanTheater.Models.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\UrbanTheater\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\palac\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
