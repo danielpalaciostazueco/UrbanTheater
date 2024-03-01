@@ -1,0 +1,225 @@
+{
+	"info": {
+		"_postman_id": "0378f8b3-75a9-4fd2-b718-661571f45d3b",
+		"name": "UrbanTheater",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31659067"
+	},
+	"item": [
+		{
+			"name": "Obra",
+			"item": [
+				{
+					"name": "Get",
+					"item": [
+						{
+							"name": "GetObra",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{Local}}/Obra",
+									"host": [
+										"{{Local}}"
+									],
+									"path": [
+										"Obra"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetObraById",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{Local}}/Obra/1",
+									"host": [
+										"{{Local}}"
+									],
+									"path": [
+										"Obra",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetAsientosOcupados",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{Local}}/Obra/2/Session?sessionId=1",
+									"host": [
+										"{{Local}}"
+									],
+									"path": [
+										"Obra",
+										"2",
+										"Session"
+									],
+									"query": [
+										{
+											"key": "sessionId",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Post",
+					"item": [
+						{
+							"name": "PostObra",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{Local}}/Obra",
+									"host": [
+										"{{Local}}"
+									],
+									"path": [
+										"Obra"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": null,
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "PostAsientosOcupados",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{Local}}/Obra/2/Session?sessionId=1",
+									"host": [
+										"{{Local}}"
+									],
+									"path": [
+										"Obra",
+										"2",
+										"Session"
+									],
+									"query": [
+										{
+											"key": "sessionId",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Put",
+					"item": [
+						{
+							"name": "PutObra",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{Local}}/Obra/3",
+									"host": [
+										"{{Local}}"
+									],
+									"path": [
+										"Obra",
+										"3"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Delete",
+					"item": [
+						{
+							"name": "DeleteObra",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{Local}}/Obra/5",
+									"host": [
+										"{{Local}}"
+									],
+									"path": [
+										"Obra",
+										"5"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Asientos",
+			"item": [
+				{
+					"name": "GetAsientosPredeterminados",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{Local}}/Asiento",
+							"host": [
+								"{{Local}}"
+							],
+							"path": [
+								"Asiento"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Usuario",
+			"item": [
+				{
+					"name": "PostUsuario",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{Local}}/Usuario/Register",
+							"host": [
+								"{{Local}}"
+							],
+							"path": [
+								"Usuario",
+								"Register"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
