@@ -186,9 +186,9 @@ namespace UrbanTheater.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal?>("Duracion")
+                    b.Property<int?>("Duracion")
                         .IsRequired()
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("FechaDos")
                         .HasColumnType("datetime2");
@@ -219,7 +219,7 @@ namespace UrbanTheater.Data.Migrations
                             Autores = "Samuel Beckett",
                             Cartel = "https://ik.imagekit.io/daniel2003/fotos-descripción-obras-teatro/Esperando-Godot/esperando-a-godot.jpg",
                             Descripcion = "Una obra teatral absurda que sigue a dos personajes, Vladimir y Estragon, mientras esperan en un lugar desolado a alguien llamado Godot, explorando temas de la existencia, la alienación y la esperanza.",
-                            Duracion = 2m,
+                            Duracion = 7200,
                             FechaDos = new DateTime(2024, 3, 9, 22, 0, 0, 0, DateTimeKind.Unspecified),
                             FechaTres = new DateTime(2024, 3, 18, 23, 0, 0, 0, DateTimeKind.Unspecified),
                             FechaUno = new DateTime(2024, 3, 3, 21, 0, 0, 0, DateTimeKind.Unspecified),
@@ -233,7 +233,7 @@ namespace UrbanTheater.Data.Migrations
                             Autores = "Andrew Lloyd Webber, Charles Hart, Richard Stilgoe",
                             Cartel = "https://ik.imagekit.io/daniel2003/fotos-descripción-obras-teatro/Fantasma-opera/fantasma-opera.jpg",
                             Descripcion = "Una icónica obra de teatro musical que narra la historia de un misterioso y desfigurado hombre conocido como el Fantasma, que vive en los pasadizos de la Ópera de París y se obsesiona con una joven y talentosa soprano, Christine.",
-                            Duracion = 2.5m,
+                            Duracion = 4800,
                             FechaDos = new DateTime(2024, 1, 12, 21, 0, 0, 0, DateTimeKind.Unspecified),
                             FechaTres = new DateTime(2024, 1, 22, 19, 0, 0, 0, DateTimeKind.Unspecified),
                             FechaUno = new DateTime(2024, 1, 7, 20, 30, 0, 0, DateTimeKind.Unspecified),
@@ -247,7 +247,7 @@ namespace UrbanTheater.Data.Migrations
                             Autores = "Valentina Moreno, Carlos Ruiz",
                             Cartel = "https://ik.imagekit.io/daniel2003/fotos-descripción-obras-teatro/Galder/Galder.jpeg",
                             Descripcion = "Un audaz espectáculo que desafía las convenciones, combinando elementos de teatro, danza y performance art. La trama sigue a un grupo ecléctico de artistas mientras exploran temas de identidad, realidad y percepción a través de actuaciones vanguardistas.",
-                            Duracion = 1.75m,
+                            Duracion = 9000,
                             FechaDos = new DateTime(2024, 5, 15, 22, 0, 0, 0, DateTimeKind.Unspecified),
                             FechaTres = new DateTime(2024, 5, 20, 21, 0, 0, 0, DateTimeKind.Unspecified),
                             FechaUno = new DateTime(2024, 5, 1, 23, 0, 0, 0, DateTimeKind.Unspecified),
@@ -261,7 +261,7 @@ namespace UrbanTheater.Data.Migrations
                             Autores = "William Shakespeare",
                             Cartel = "https://ik.imagekit.io/daniel2003/fotos-descripción-obras-teatro/Hamlet/hamlet.jpg",
                             Descripcion = "Una de las tragedias más emblemáticas de William Shakespeare, centrada en la historia del príncipe Hamlet de Dinamarca, quien busca vengar la muerte de su padre. La obra explora temas complejos como la locura, la traición, la venganza y la moralidad.",
-                            Duracion = 3m,
+                            Duracion = 6300,
                             FechaDos = new DateTime(2024, 6, 6, 19, 0, 0, 0, DateTimeKind.Unspecified),
                             FechaTres = new DateTime(2024, 6, 10, 22, 0, 0, 0, DateTimeKind.Unspecified),
                             FechaUno = new DateTime(2024, 6, 1, 18, 30, 0, 0, DateTimeKind.Unspecified),
@@ -275,7 +275,7 @@ namespace UrbanTheater.Data.Migrations
                             Autores = "Irene Mecchi, Jonathan Roberts, Linda Woolverton",
                             Cartel = "https://ik.imagekit.io/daniel2003/fotos-descripción-obras-teatro/Rey-Leon/reyLeon.webp",
                             Descripcion = "Un musical espectacular basado en la famosa película animada de Disney. La historia sigue las aventuras de Simba, un joven león que debe enfrentar numerosos desafíos para reclamar su lugar como el legítimo rey de la sabana. El musical es conocido por su impresionante uso de disfraces, marionetas y efectos visuales para recrear el ambiente de África.",
-                            Duracion = 2.5m,
+                            Duracion = 4800,
                             FechaDos = new DateTime(2024, 7, 10, 19, 0, 0, 0, DateTimeKind.Unspecified),
                             FechaTres = new DateTime(2024, 7, 20, 20, 0, 0, 0, DateTimeKind.Unspecified),
                             FechaUno = new DateTime(2024, 7, 1, 21, 0, 0, 0, DateTimeKind.Unspecified),
@@ -289,7 +289,7 @@ namespace UrbanTheater.Data.Migrations
                             Autores = "Ana García, Luis Hernández",
                             Cartel = "https://ik.imagekit.io/daniel2003/fotos-descripción-obras-teatro/BodasDeSangre/BodasDeSangre.jpg",
                             Descripcion = "Una comedia romántica contemporánea que sigue la historia de varias parejas que se preparan para sus respectivas bodas. La obra teje una trama llena de enredos amorosos, malentendidos cómicos y momentos de reflexión sobre las relaciones y el matrimonio.",
-                            Duracion = 2m,
+                            Duracion = 9000,
                             FechaDos = new DateTime(2024, 8, 12, 20, 0, 0, 0, DateTimeKind.Unspecified),
                             FechaTres = new DateTime(2024, 8, 21, 21, 0, 0, 0, DateTimeKind.Unspecified),
                             FechaUno = new DateTime(2024, 8, 2, 21, 0, 0, 0, DateTimeKind.Unspecified),
@@ -303,7 +303,7 @@ namespace UrbanTheater.Data.Migrations
                             Autores = "Alberto Marca, Carlos Marco",
                             Cartel = "https://ik.imagekit.io/daniel2003/fotos-descripción-obras-teatro/B-vocal/b-vocal_LG.jpg",
                             Descripcion = "Un aclamado grupo vocal que destaca por su habilidad para fusionar a cappella y comedia en sus actuaciones. B-Vocal cautiva al público con su mezcla única de música, humor y la sorprendente habilidad de crear sonidos instrumentales con sus voces, explorando diversos géneros musicales desde el pop hasta el clásico.",
-                            Duracion = 1.5m,
+                            Duracion = 7200,
                             FechaDos = new DateTime(2024, 9, 3, 22, 30, 0, 0, DateTimeKind.Unspecified),
                             FechaTres = new DateTime(2024, 9, 10, 23, 0, 0, 0, DateTimeKind.Unspecified),
                             FechaUno = new DateTime(2024, 9, 1, 21, 0, 0, 0, DateTimeKind.Unspecified),

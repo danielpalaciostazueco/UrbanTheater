@@ -9,3 +9,14 @@ C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Models\obj\Debug\net7.0\Urba
 C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Models\obj\Debug\net7.0\refint\UrbanTheater.Models.dll
 C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Models\obj\Debug\net7.0\UrbanTheater.Models.pdb
 C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Models\obj\Debug\net7.0\ref\UrbanTheater.Models.dll
+C:\Users\palac\Desktop\nuevore\UrbanTheater\Models\bin\Debug\net7.0\UrbanTheater.Models.deps.json
+C:\Users\palac\Desktop\nuevore\UrbanTheater\Models\bin\Debug\net7.0\UrbanTheater.Models.dll
+C:\Users\palac\Desktop\nuevore\UrbanTheater\Models\bin\Debug\net7.0\UrbanTheater.Models.pdb
+C:\Users\palac\Desktop\nuevore\UrbanTheater\Models\obj\Debug\net7.0\UrbanTheater.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\palac\Desktop\nuevore\UrbanTheater\Models\obj\Debug\net7.0\UrbanTheater.Models.AssemblyInfoInputs.cache
+C:\Users\palac\Desktop\nuevore\UrbanTheater\Models\obj\Debug\net7.0\UrbanTheater.Models.AssemblyInfo.cs
+C:\Users\palac\Desktop\nuevore\UrbanTheater\Models\obj\Debug\net7.0\UrbanTheater.Models.csproj.CoreCompileInputs.cache
+C:\Users\palac\Desktop\nuevore\UrbanTheater\Models\obj\Debug\net7.0\UrbanTheater.Models.dll
+C:\Users\palac\Desktop\nuevore\UrbanTheater\Models\obj\Debug\net7.0\refint\UrbanTheater.Models.dll
+C:\Users\palac\Desktop\nuevore\UrbanTheater\Models\obj\Debug\net7.0\UrbanTheater.Models.pdb
+C:\Users\palac\Desktop\nuevore\UrbanTheater\Models\obj\Debug\net7.0\ref\UrbanTheater.Models.dll
