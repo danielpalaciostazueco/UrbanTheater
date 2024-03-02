@@ -33,3 +33,12 @@ services:
       - db
     environment:
       - DOCKER_CONTAINER=true
+  web:
+    container_name: webContainer
+    image: danielpalacios2003/urbantheater_front
+    ports:
+      - "9000:80"
+    depends_on:
+      - api
+    networks:
+      - backend
