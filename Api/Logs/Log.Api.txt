@@ -1,0 +1,6 @@
+2024-03-02 13:23:48.285 +01:00 [ERR] Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Asientos] (
+    [idAsiento] int NOT NULL IDENTITY,
+    [isFree] bit NOT NULL,
+    CONSTRAINT [PK_Asientos] PRIMARY KEY ([idAsiento])
+);

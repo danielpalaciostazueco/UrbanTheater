@@ -18,7 +18,7 @@ public class Obra
     [Required]
     public string? Autores { get; set; }
     [Required]
-    public decimal? Duracion { get; set; }
+    public int? Duracion { get; set; }
     [Required]
     public string? Actores { get; set; }
     [Required]
