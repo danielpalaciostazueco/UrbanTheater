@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OwBjT79hPFnH2DzRzH3llbB7xDnInofCpuY9SDL7Smdo1ptr+BUed16oH/syHbs1SDK+52jBnOJuU8bdL6N+lw==",
+  "dgSpecHash": "JbrRjoL7O04mowoqhmxaag0Bce/KkGAZf/yY/zdXgZ1EIhHWZrMTC2IO6VyRevM3MdarZTCjaz+HbM5gwTXKoA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\palac\\Desktop\\nuevore\\UrbanTheater\\Api\\UrbanTheater.Api.csproj",
+  "projectFilePath": "C:\\Users\\palac\\Downloads\\UrbanTheater (3)\\UrbanTheater\\Api\\UrbanTheater.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\palac\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\palac\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

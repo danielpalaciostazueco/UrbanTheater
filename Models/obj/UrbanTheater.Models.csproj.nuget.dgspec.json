@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\palac\\Desktop\\nuevore\\UrbanTheater\\Models\\UrbanTheater.Models.csproj": {}
+    "C:\\Users\\palac\\Downloads\\UrbanTheater (3)\\UrbanTheater\\Models\\UrbanTheater.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\palac\\Desktop\\nuevore\\UrbanTheater\\Models\\UrbanTheater.Models.csproj": {
+    "C:\\Users\\palac\\Downloads\\UrbanTheater (3)\\UrbanTheater\\Models\\UrbanTheater.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\palac\\Desktop\\nuevore\\UrbanTheater\\Models\\UrbanTheater.Models.csproj",
+        "projectUniqueName": "C:\\Users\\palac\\Downloads\\UrbanTheater (3)\\UrbanTheater\\Models\\UrbanTheater.Models.csproj",
         "projectName": "UrbanTheater.Models",
-        "projectPath": "C:\\Users\\palac\\Desktop\\nuevore\\UrbanTheater\\Models\\UrbanTheater.Models.csproj",
+        "projectPath": "C:\\Users\\palac\\Downloads\\UrbanTheater (3)\\UrbanTheater\\Models\\UrbanTheater.Models.csproj",
         "packagesPath": "C:\\Users\\palac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\palac\\Desktop\\nuevore\\UrbanTheater\\Models\\obj\\",
+        "outputPath": "C:\\Users\\palac\\Downloads\\UrbanTheater (3)\\UrbanTheater\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\palac\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -22,7 +22,7 @@ services:
       - MSSQL_SA_PASSWORD=<YourStrong@Passw0rd>
 
   api:
-    build:
+    build: 
       context: .
       dockerfile: Api/Dockerfile
     ports:
