@@ -10,7 +10,7 @@ volumes:
 
 services:
   db:
-    image: mcr.microsoft.com/mssql/server:2019-CU21-ubuntu-20.04
+    image: danielpalacios2003/urbantheater-db
     ports:
       - "8002:1433"
     networks:
