@@ -33,6 +33,6 @@ spec:
     spec:
       containers:
       - name: docker-compose-dotnet-core-and-mssql-app
-        image: danielpalacios2003/urbantheater-api
+        image: danielpalacios2003/urban-theater-front3
         ports:
         - containerPort: 80

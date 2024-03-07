@@ -4799,11 +4799,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\palac\\Desktop\\careta-teatro\\UrbanTheater\\Api\\UrbanTheater.Api.csproj",
+      "projectUniqueName": "C:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Api\\UrbanTheater.Api.csproj",
       "projectName": "UrbanTheater.Api",
-      "projectPath": "C:\\Users\\palac\\Desktop\\careta-teatro\\UrbanTheater\\Api\\UrbanTheater.Api.csproj",
+      "projectPath": "C:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Api\\UrbanTheater.Api.csproj",
       "packagesPath": "C:\\Users\\palac\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\palac\\Desktop\\careta-teatro\\UrbanTheater\\Api\\obj\\",
+      "outputPath": "C:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\palac\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -4818,11 +4818,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\palac\\Desktop\\careta-teatro\\UrbanTheater\\Business\\UrbanTheater.Business.csproj": {
-              "projectPath": "C:\\Users\\palac\\Desktop\\careta-teatro\\UrbanTheater\\Business\\UrbanTheater.Business.csproj"
+            "C:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Business\\UrbanTheater.Business.csproj": {
+              "projectPath": "C:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Business\\UrbanTheater.Business.csproj"
             },
-            "C:\\Users\\palac\\Desktop\\careta-teatro\\UrbanTheater\\Models\\UrbanTheater.Models.csproj": {
-              "projectPath": "C:\\Users\\palac\\Desktop\\careta-teatro\\UrbanTheater\\Models\\UrbanTheater.Models.csproj"
+            "c:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Models\\UrbanTheater.Models.csproj": {
+              "projectPath": "c:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Models\\UrbanTheater.Models.csproj"
             }
           }
         }

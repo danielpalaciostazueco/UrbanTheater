@@ -7,8 +7,8 @@ using Serilog.Events;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
-var isRunningInDocker = Environment.GetEnvironmentVariable("DOCKER_CONTAINER") == "true";
-var keyString = isRunningInDocker ? "ServerDB_Docker" : "ServerDB_Local";
+
+var keyString =  "ServerDB_Local";
 var connectionString = builder.Configuration.GetConnectionString(keyString);
 
 builder.Services.AddControllers();
@@ -38,7 +38,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("MyCorsPolicy", policy =>
     {
-        policy.WithOrigins("http://localhost:9000","Urbantheater.freeddns.org")
+        policy.WithOrigins("*")
               .AllowAnyMethod()
               .AllowAnyHeader();
     });

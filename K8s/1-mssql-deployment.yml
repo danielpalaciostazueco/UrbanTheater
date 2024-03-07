@@ -5,12 +5,15 @@ metadata:
   labels:
     app: dotnetapp
 spec:
-  ports:
-    - port: 1433
   selector:
     app: dotnetapp
     tier: mssql
-  clusterIP: None
+  type: LoadBalancer
+  ports:
+    - protocol: TCP
+      port: 1433
+      targetPort: 1433
+      name: tcpsql
 ---
 apiVersion: apps/v1 # for versions before 1.9.0 use apps/v1beta2
 kind: Deployment
