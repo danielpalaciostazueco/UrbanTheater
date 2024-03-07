@@ -32,6 +32,25 @@ C:\Users\palac\Desktop\nuevore\UrbanTheater\Business\obj\Debug\net7.0\UrbanTheat
 C:\Users\palac\Desktop\nuevore\UrbanTheater\Business\obj\Debug\net7.0\refint\UrbanTheater.Business.dll
 C:\Users\palac\Desktop\nuevore\UrbanTheater\Business\obj\Debug\net7.0\UrbanTheater.Business.pdb
 C:\Users\palac\Desktop\nuevore\UrbanTheater\Business\obj\Debug\net7.0\ref\UrbanTheater.Business.dll
+<<<<<<< HEAD
+C:\Users\Usuario\Desktop\UrbanTheater\Business\bin\Debug\net7.0\UrbanTheater.Business.deps.json
+C:\Users\Usuario\Desktop\UrbanTheater\Business\bin\Debug\net7.0\UrbanTheater.Business.dll
+C:\Users\Usuario\Desktop\UrbanTheater\Business\bin\Debug\net7.0\UrbanTheater.Business.pdb
+C:\Users\Usuario\Desktop\UrbanTheater\Business\bin\Debug\net7.0\UrbanTheater.Data.dll
+C:\Users\Usuario\Desktop\UrbanTheater\Business\bin\Debug\net7.0\UrbanTheater.Models.dll
+C:\Users\Usuario\Desktop\UrbanTheater\Business\bin\Debug\net7.0\UrbanTheater.Models.pdb
+C:\Users\Usuario\Desktop\UrbanTheater\Business\bin\Debug\net7.0\UrbanTheater.Data.pdb
+C:\Users\Usuario\Desktop\UrbanTheater\Business\obj\Debug\net7.0\UrbanTheater.Business.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\UrbanTheater\Business\obj\Debug\net7.0\UrbanTheater.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\UrbanTheater\Business\obj\Debug\net7.0\UrbanTheater.Business.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\UrbanTheater\Business\obj\Debug\net7.0\UrbanTheater.Business.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\UrbanTheater\Business\obj\Debug\net7.0\UrbanTheater.Business.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\UrbanTheater\Business\obj\Debug\net7.0\UrbanTheater.Business.csproj.CopyComplete
+C:\Users\Usuario\Desktop\UrbanTheater\Business\obj\Debug\net7.0\UrbanTheater.Business.dll
+C:\Users\Usuario\Desktop\UrbanTheater\Business\obj\Debug\net7.0\refint\UrbanTheater.Business.dll
+C:\Users\Usuario\Desktop\UrbanTheater\Business\obj\Debug\net7.0\UrbanTheater.Business.pdb
+C:\Users\Usuario\Desktop\UrbanTheater\Business\obj\Debug\net7.0\ref\UrbanTheater.Business.dll
+=======
 C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Business\bin\Debug\net7.0\UrbanTheater.Business.deps.json
 C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Business\bin\Debug\net7.0\UrbanTheater.Business.dll
 C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Business\bin\Debug\net7.0\UrbanTheater.Business.pdb
@@ -49,3 +68,4 @@ C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Business\obj\Debug\net7.0\U
 C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Business\obj\Debug\net7.0\refint\UrbanTheater.Business.dll
 C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Business\obj\Debug\net7.0\UrbanTheater.Business.pdb
 C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Business\obj\Debug\net7.0\ref\UrbanTheater.Business.dll
+>>>>>>> 749489358abb588cc6a36f20f112274e15a91dd2

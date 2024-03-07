@@ -1,6 +1,19 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
+    "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Business\\UrbanTheater.Business.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Business\\UrbanTheater.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Business\\UrbanTheater.Business.csproj",
+        "projectName": "UrbanTheater.Business",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Business\\UrbanTheater.Business.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Business\\obj\\",
+=======
     "C:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Business\\UrbanTheater.Business.csproj": {}
   },
   "projects": {
@@ -12,9 +25,10 @@
         "projectPath": "C:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Business\\UrbanTheater.Business.csproj",
         "packagesPath": "C:\\Users\\palac\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Business\\obj\\",
+>>>>>>> 749489358abb588cc6a36f20f112274e15a91dd2
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\palac\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -26,11 +40,19 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+<<<<<<< HEAD
+              "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Data\\UrbanTheater.Data.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Data\\UrbanTheater.Data.csproj"
+              },
+              "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Models\\UrbanTheater.Models.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Models\\UrbanTheater.Models.csproj"
+=======
               "C:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Data\\UrbanTheater.Data.csproj": {
                 "projectPath": "C:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Data\\UrbanTheater.Data.csproj"
               },
               "c:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Models\\UrbanTheater.Models.csproj": {
                 "projectPath": "c:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Models\\UrbanTheater.Models.csproj"
+>>>>>>> 749489358abb588cc6a36f20f112274e15a91dd2
               }
             }
           }
@@ -60,10 +82,20 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
+<<<<<<< HEAD
+    "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Data\\UrbanTheater.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Data\\UrbanTheater.Data.csproj",
+        "projectName": "UrbanTheater.Data",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Data\\UrbanTheater.Data.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Data\\obj\\",
+=======
     "C:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Data\\UrbanTheater.Data.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -72,9 +104,10 @@
         "projectPath": "C:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Data\\UrbanTheater.Data.csproj",
         "packagesPath": "C:\\Users\\palac\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Data\\obj\\",
+>>>>>>> 749489358abb588cc6a36f20f112274e15a91dd2
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\palac\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -86,8 +119,13 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+<<<<<<< HEAD
+              "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Models\\UrbanTheater.Models.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Models\\UrbanTheater.Models.csproj"
+=======
               "c:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Models\\UrbanTheater.Models.csproj": {
                 "projectPath": "c:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Models\\UrbanTheater.Models.csproj"
+>>>>>>> 749489358abb588cc6a36f20f112274e15a91dd2
               }
             }
           }
@@ -133,10 +171,20 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
+<<<<<<< HEAD
+    "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Models\\UrbanTheater.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Models\\UrbanTheater.Models.csproj",
+        "projectName": "UrbanTheater.Models",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Models\\UrbanTheater.Models.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Models\\obj\\",
+=======
     "c:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Models\\UrbanTheater.Models.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -145,9 +193,10 @@
         "projectPath": "c:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Models\\UrbanTheater.Models.csproj",
         "packagesPath": "C:\\Users\\palac\\.nuget\\packages\\",
         "outputPath": "c:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Models\\obj\\",
+>>>>>>> 749489358abb588cc6a36f20f112274e15a91dd2
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\palac\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -186,7 +235,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

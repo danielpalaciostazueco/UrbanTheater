@@ -20,6 +20,19 @@ C:\Users\palac\Desktop\nuevore\UrbanTheater\Models\obj\Debug\net7.0\UrbanTheater
 C:\Users\palac\Desktop\nuevore\UrbanTheater\Models\obj\Debug\net7.0\refint\UrbanTheater.Models.dll
 C:\Users\palac\Desktop\nuevore\UrbanTheater\Models\obj\Debug\net7.0\UrbanTheater.Models.pdb
 C:\Users\palac\Desktop\nuevore\UrbanTheater\Models\obj\Debug\net7.0\ref\UrbanTheater.Models.dll
+<<<<<<< HEAD
+C:\Users\Usuario\Desktop\UrbanTheater\Models\bin\Debug\net7.0\UrbanTheater.Models.deps.json
+C:\Users\Usuario\Desktop\UrbanTheater\Models\bin\Debug\net7.0\UrbanTheater.Models.dll
+C:\Users\Usuario\Desktop\UrbanTheater\Models\bin\Debug\net7.0\UrbanTheater.Models.pdb
+C:\Users\Usuario\Desktop\UrbanTheater\Models\obj\Debug\net7.0\UrbanTheater.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\UrbanTheater\Models\obj\Debug\net7.0\UrbanTheater.Models.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\UrbanTheater\Models\obj\Debug\net7.0\UrbanTheater.Models.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\UrbanTheater\Models\obj\Debug\net7.0\UrbanTheater.Models.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\UrbanTheater\Models\obj\Debug\net7.0\UrbanTheater.Models.dll
+C:\Users\Usuario\Desktop\UrbanTheater\Models\obj\Debug\net7.0\refint\UrbanTheater.Models.dll
+C:\Users\Usuario\Desktop\UrbanTheater\Models\obj\Debug\net7.0\UrbanTheater.Models.pdb
+C:\Users\Usuario\Desktop\UrbanTheater\Models\obj\Debug\net7.0\ref\UrbanTheater.Models.dll
+=======
 C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Models\bin\Debug\net7.0\UrbanTheater.Models.deps.json
 C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Models\bin\Debug\net7.0\UrbanTheater.Models.dll
 C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Models\bin\Debug\net7.0\UrbanTheater.Models.pdb
@@ -31,3 +44,4 @@ C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Models\obj\Debug\net7.0\Urb
 C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Models\obj\Debug\net7.0\refint\UrbanTheater.Models.dll
 C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Models\obj\Debug\net7.0\UrbanTheater.Models.pdb
 C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Models\obj\Debug\net7.0\ref\UrbanTheater.Models.dll
+>>>>>>> 749489358abb588cc6a36f20f112274e15a91dd2

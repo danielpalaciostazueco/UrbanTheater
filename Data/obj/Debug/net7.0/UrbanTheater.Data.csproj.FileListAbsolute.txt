@@ -32,6 +32,25 @@ C:\Users\palac\Desktop\nuevore\UrbanTheater\Data\obj\Debug\net7.0\refint\UrbanTh
 C:\Users\palac\Desktop\nuevore\UrbanTheater\Data\obj\Debug\net7.0\UrbanTheater.Data.pdb
 C:\Users\palac\Desktop\nuevore\UrbanTheater\Data\obj\Debug\net7.0\UrbanTheater.Data.genruntimeconfig.cache
 C:\Users\palac\Desktop\nuevore\UrbanTheater\Data\obj\Debug\net7.0\ref\UrbanTheater.Data.dll
+<<<<<<< HEAD
+C:\Users\Usuario\Desktop\UrbanTheater\Data\bin\Debug\net7.0\UrbanTheater.Data.deps.json
+C:\Users\Usuario\Desktop\UrbanTheater\Data\bin\Debug\net7.0\UrbanTheater.Data.runtimeconfig.json
+C:\Users\Usuario\Desktop\UrbanTheater\Data\bin\Debug\net7.0\UrbanTheater.Data.dll
+C:\Users\Usuario\Desktop\UrbanTheater\Data\bin\Debug\net7.0\UrbanTheater.Data.pdb
+C:\Users\Usuario\Desktop\UrbanTheater\Data\bin\Debug\net7.0\UrbanTheater.Models.dll
+C:\Users\Usuario\Desktop\UrbanTheater\Data\bin\Debug\net7.0\UrbanTheater.Models.pdb
+C:\Users\Usuario\Desktop\UrbanTheater\Data\obj\Debug\net7.0\UrbanTheater.Data.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\UrbanTheater\Data\obj\Debug\net7.0\UrbanTheater.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\UrbanTheater\Data\obj\Debug\net7.0\UrbanTheater.Data.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\UrbanTheater\Data\obj\Debug\net7.0\UrbanTheater.Data.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\UrbanTheater\Data\obj\Debug\net7.0\UrbanTheater.Data.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\UrbanTheater\Data\obj\Debug\net7.0\UrbanTheater.Data.csproj.CopyComplete
+C:\Users\Usuario\Desktop\UrbanTheater\Data\obj\Debug\net7.0\UrbanTheater.Data.dll
+C:\Users\Usuario\Desktop\UrbanTheater\Data\obj\Debug\net7.0\refint\UrbanTheater.Data.dll
+C:\Users\Usuario\Desktop\UrbanTheater\Data\obj\Debug\net7.0\UrbanTheater.Data.pdb
+C:\Users\Usuario\Desktop\UrbanTheater\Data\obj\Debug\net7.0\UrbanTheater.Data.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\UrbanTheater\Data\obj\Debug\net7.0\ref\UrbanTheater.Data.dll
+=======
 C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Data\bin\Debug\net7.0\UrbanTheater.Data.deps.json
 C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Data\bin\Debug\net7.0\UrbanTheater.Data.runtimeconfig.json
 C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Data\bin\Debug\net7.0\UrbanTheater.Data.dll
@@ -49,3 +68,4 @@ C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Data\obj\Debug\net7.0\refin
 C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Data\obj\Debug\net7.0\UrbanTheater.Data.pdb
 C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Data\obj\Debug\net7.0\UrbanTheater.Data.genruntimeconfig.cache
 C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Data\obj\Debug\net7.0\ref\UrbanTheater.Data.dll
+>>>>>>> 749489358abb588cc6a36f20f112274e15a91dd2

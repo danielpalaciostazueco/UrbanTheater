@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using UrbanTheater.Models;
 using System.Collections.Generic;
 using System.Linq;
-using Microsoft.Extensions.Logging; 
+using Microsoft.Extensions.Logging;
 using UrbanTheater.Data;
 
 namespace UrbanTheater.Data
@@ -10,27 +10,22 @@ namespace UrbanTheater.Data
     public class ObraRepository : IObraRepository
     {
         private readonly UrbanTheaterAppContext _context;
-        private readonly ILogger<ObraRepository> _logger; 
+        private readonly ILogger<ObraRepository> _logger;
 
 
         public ObraRepository(UrbanTheaterAppContext context, ILogger<ObraRepository> logger)
         {
-            
-                _context = context;
-                _logger = logger;     
+
+            _context = context;
+            _logger = logger;
         }
 
         public List<Obra> GetAll()
         {
-            try
-            {
-                return _context.Obras.ToList();
-            }
-            catch (Exception ex)
-            {
-               _logger.LogError(ex, "Error obteniendo las obras.");
-                throw;
-            }
+
+            return _context.Obras.ToList();
+
+
 
         }
 
@@ -44,7 +39,7 @@ namespace UrbanTheater.Data
             {
                 _logger.LogError(ex, "Error obteniendo obra por id.");
                 throw;
-               
+
             }
         }
 
@@ -69,7 +64,7 @@ namespace UrbanTheater.Data
             }
             catch (Exception ex)
             {
-                 _logger.LogError(ex, "Error al añadir la obra.");
+                _logger.LogError(ex, "Error al añadir la obra.");
                 throw;
             }
         }
@@ -84,7 +79,7 @@ namespace UrbanTheater.Data
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Error al añadir la obra.");
-                throw;   
+                throw;
             }
         }
 
@@ -121,7 +116,7 @@ namespace UrbanTheater.Data
             {
                 _logger.LogError(ex, "Error al obtener los asientos ocupados.");
                 throw;
-               
+
             }
         }
 
