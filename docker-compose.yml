@@ -2,7 +2,7 @@ version: '3.4'
 
 networks:
   backend:
-
+    driver: bridge
 
 volumes:
   sqlserver-data:
@@ -10,21 +10,21 @@ volumes:
 
 services:
   db:
-    image: danielpalacios2003/urbantheater-db
+    image: mcr.microsoft.com/mssql/server:2019-CU21-ubuntu-20.04
     ports:
-      - "8002:1433"
+      - "1433:1433"
     networks:
       - backend
     volumes:
       - sqlserver-data:/var/opt/mssql
     environment:
-      - ACCEPT_EULA=Y
-      - MSSQL_SA_PASSWORD=<YourStrong@Passw0rd>
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "<YourStrong@Passw0rd>"
 
   api:
     build: 
       context: .
-      dockerfile: Api/Dockerfile
+      dockerfile: Dockerfile
     ports:
       - "8001:80"
     networks:
@@ -32,13 +32,4 @@ services:
     depends_on:
       - db
     environment:
-      - DOCKER_CONTAINER=true
-  web:
-    container_name: webContainer
-    image: danielpalacios2003/urbantheater_front
-    ports:
-      - "9000:80"
-    depends_on:
-      - api
-    networks :
-      - backend
+      DOCKER_CONTAINER: "true"

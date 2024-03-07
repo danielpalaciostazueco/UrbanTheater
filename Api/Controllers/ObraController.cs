@@ -21,15 +21,10 @@ namespace UrbanTheater.Api.Controllers
        [HttpGet]
         public ActionResult<List<Obra>> GetAll()
         {
-            try
-            {
+             
                 return _obraService.GetAll();
-            }
-            catch (Exception ex)
-            {
-                Log.Error(ex, "Error al obtener todas las obras"); 
-                return StatusCode(500, "Error interno del servidor");
-            }
+            
+           
         }
 
         [HttpGet("{id}")]

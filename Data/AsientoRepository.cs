@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using UrbanTheater.Models;
 using System.Collections.Generic;
 using System.Linq;
-using Microsoft.Extensions.Logging; 
+using Microsoft.Extensions.Logging;
 using UrbanTheater.Data;
 
 namespace UrbanTheater.Data
@@ -15,9 +15,9 @@ namespace UrbanTheater.Data
 
         public AsientoRepository(UrbanTheaterAppContext context, ILogger<AsientoRepository> logger)
         {
-             _context = context;
-                _logger = logger; 
-           
+            _context = context;
+            _logger = logger;
+
         }
         public List<Asiento> GetAll()
         {
@@ -27,7 +27,7 @@ namespace UrbanTheater.Data
             }
             catch (Exception ex)
             {
-                 _logger.LogError(ex, "Error obteniendo los asientos por defecto.");
+                _logger.LogError(ex, "Error obteniendo los asientos por defecto.");
                 throw;
             }
         }
