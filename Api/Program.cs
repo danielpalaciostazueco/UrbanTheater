@@ -34,6 +34,19 @@ builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 
 
 
+<<<<<<< HEAD
+=======
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("MyCorsPolicy", policy =>
+    {
+        policy.WithOrigins("*")
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
+
+>>>>>>> 749489358abb588cc6a36f20f112274e15a91dd2
 Log.Logger = new LoggerConfiguration()
     .MinimumLevel.Debug() 
     .MinimumLevel.Override("Microsoft", LogEventLevel.Warning)

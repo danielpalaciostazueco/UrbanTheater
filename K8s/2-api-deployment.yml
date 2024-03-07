@@ -19,7 +19,11 @@ spec:
     spec:
       containers:
       - name: api-net
+<<<<<<< HEAD
         image: danielpalacios2003/apirds
+=======
+        image: danielpalacios2003/api11
+>>>>>>> 749489358abb588cc6a36f20f112274e15a91dd2
         ports:
         - containerPort: 80
 ---
