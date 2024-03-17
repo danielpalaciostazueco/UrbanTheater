@@ -13,19 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Models\\UrbanTheater.Models.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\theater_vue\\UrbanTheater\\Models\\UrbanTheater.Models.csproj",
       "projectName": "UrbanTheater.Models",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Models\\UrbanTheater.Models.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\theater_vue\\UrbanTheater\\Models\\UrbanTheater.Models.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Models\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Models\\UrbanTheater.Models.csproj",
-      "projectName": "UrbanTheater.Models",
-      "projectPath": "C:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Models\\UrbanTheater.Models.csproj",
-      "packagesPath": "C:\\Users\\palac\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Models\\obj\\",
->>>>>>> 749489358abb588cc6a36f20f112274e15a91dd2
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\theater_vue\\UrbanTheater\\Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"

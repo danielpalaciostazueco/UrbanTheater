@@ -1,4 +1,4 @@
-apiVersion: apps/v1 # for versions before 1.9.0 use apps/v1beta2
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: api
@@ -19,11 +19,7 @@ spec:
     spec:
       containers:
       - name: api-net
-<<<<<<< HEAD
-        image: danielpalacios2003/apirds
-=======
-        image: danielpalacios2003/api11
->>>>>>> 749489358abb588cc6a36f20f112274e15a91dd2
+        image:  danielpalacios2003/apifinal100
         ports:
         - containerPort: 80
 ---
@@ -40,5 +36,3 @@ spec:
     app: api
     tier: frontend
   type: LoadBalancer
-  
-

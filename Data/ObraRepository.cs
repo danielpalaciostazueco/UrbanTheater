@@ -129,7 +129,7 @@ namespace UrbanTheater.Data
                 {
                     idObra = obraId,
                     idSesion = sessionId,
-                    idAsiento = idAsiento,
+                    idAsiento = idAsiento
                 };
 
                 _context.AsientosObrasDatos.Add(nuevoAsiento);

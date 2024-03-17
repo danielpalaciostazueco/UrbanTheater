@@ -3432,19 +3432,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Business\\UrbanTheater.Business.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\theater_vue\\UrbanTheater\\Business\\UrbanTheater.Business.csproj",
       "projectName": "UrbanTheater.Business",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Business\\UrbanTheater.Business.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\theater_vue\\UrbanTheater\\Business\\UrbanTheater.Business.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Business\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Business\\UrbanTheater.Business.csproj",
-      "projectName": "UrbanTheater.Business",
-      "projectPath": "C:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Business\\UrbanTheater.Business.csproj",
-      "packagesPath": "C:\\Users\\palac\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Business\\obj\\",
->>>>>>> 749489358abb588cc6a36f20f112274e15a91dd2
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\theater_vue\\UrbanTheater\\Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -3459,19 +3451,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-<<<<<<< HEAD
-            "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Data\\UrbanTheater.Data.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Data\\UrbanTheater.Data.csproj"
+            "C:\\Users\\Usuario\\Desktop\\theater_vue\\UrbanTheater\\Data\\UrbanTheater.Data.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\theater_vue\\UrbanTheater\\Data\\UrbanTheater.Data.csproj"
             },
-            "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Models\\UrbanTheater.Models.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Models\\UrbanTheater.Models.csproj"
-=======
-            "C:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Data\\UrbanTheater.Data.csproj": {
-              "projectPath": "C:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Data\\UrbanTheater.Data.csproj"
-            },
-            "c:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Models\\UrbanTheater.Models.csproj": {
-              "projectPath": "c:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Models\\UrbanTheater.Models.csproj"
->>>>>>> 749489358abb588cc6a36f20f112274e15a91dd2
+            "C:\\Users\\Usuario\\Desktop\\theater_vue\\UrbanTheater\\Models\\UrbanTheater.Models.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\theater_vue\\UrbanTheater\\Models\\UrbanTheater.Models.csproj"
             }
           }
         }

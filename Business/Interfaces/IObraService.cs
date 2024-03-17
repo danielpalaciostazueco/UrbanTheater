@@ -13,6 +13,7 @@ namespace UrbanTheater.Business
         void Delete(int id);
         List<int> GetObrasAsientos(int ObraID, int IdSesion);
         void AddAsientoToObra(int obraId, int sessionId, int idAsiento);
+        List<Obra> SearchObraParameters(QueryParameters queryParameters);
 
     }
 }

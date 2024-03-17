@@ -3695,19 +3695,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Data\\UrbanTheater.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\theater_vue\\UrbanTheater\\Data\\UrbanTheater.Data.csproj",
       "projectName": "UrbanTheater.Data",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Data\\UrbanTheater.Data.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\theater_vue\\UrbanTheater\\Data\\UrbanTheater.Data.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Data\\obj\\",
-=======
-      "projectUniqueName": "c:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Data\\UrbanTheater.Data.csproj",
-      "projectName": "UrbanTheater.Data",
-      "projectPath": "c:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Data\\UrbanTheater.Data.csproj",
-      "packagesPath": "C:\\Users\\palac\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Data\\obj\\",
->>>>>>> 749489358abb588cc6a36f20f112274e15a91dd2
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\theater_vue\\UrbanTheater\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -3722,13 +3714,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-<<<<<<< HEAD
-            "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Models\\UrbanTheater.Models.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Desktop\\UrbanTheater\\Models\\UrbanTheater.Models.csproj"
-=======
-            "c:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Models\\UrbanTheater.Models.csproj": {
-              "projectPath": "c:\\Users\\palac\\Desktop\\UrbanTheater (1)\\UrbanTheater\\Models\\UrbanTheater.Models.csproj"
->>>>>>> 749489358abb588cc6a36f20f112274e15a91dd2
+            "C:\\Users\\Usuario\\Desktop\\theater_vue\\UrbanTheater\\Models\\UrbanTheater.Models.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\theater_vue\\UrbanTheater\\Models\\UrbanTheater.Models.csproj"
             }
           }
         }

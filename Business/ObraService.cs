@@ -1,4 +1,4 @@
-﻿using Microsoft.Extensions.Logging; 
+﻿using Microsoft.Extensions.Logging;
 using UrbanTheater.Models;
 using UrbanTheater.Data;
 using System.Collections.Generic;
@@ -8,26 +8,26 @@ namespace UrbanTheater.Business
     public class ObraService : IObraService
     {
         private readonly IObraRepository _obraRepository;
-        private readonly ILogger<ObraService> _logger; 
+        private readonly ILogger<ObraService> _logger;
 
-   
+
         public ObraService(IObraRepository obraRepository, ILogger<ObraService> logger)
         {
             _obraRepository = obraRepository;
-            _logger = logger; 
+            _logger = logger;
         }
 
         public List<Obra> GetAll()
         {
             try
             {
-                _logger.LogInformation("Obteniendo todas las obras"); 
+                _logger.LogInformation("Obteniendo todas las obras");
                 return _obraRepository.GetAll();
             }
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Error obteniendo todas las obras");
-                throw; 
+                throw;
             }
         }
         public Obra? Get(int id)
@@ -39,10 +39,67 @@ namespace UrbanTheater.Business
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Error obteniendo la obra por id");
-                throw; 
+                throw;
             }
 
         }
+        public List<Obra> SearchObraParameters(QueryParameters queryParameters)
+        {
+            try
+            {
+                var obraQuery = _obraRepository.GetAll().AsQueryable();
+
+                if (!string.IsNullOrEmpty(queryParameters.Nombre))
+                {
+                    obraQuery = obraQuery.Where(x => x.Nombre.Contains(queryParameters.Nombre));
+                }
+
+                if (!string.IsNullOrEmpty(queryParameters.Descripcion))
+                {
+                    obraQuery = obraQuery.Where(x => x.Descripcion.Contains(queryParameters.Descripcion));
+                }
+
+                if (!string.IsNullOrEmpty(queryParameters.Autores))
+                {
+                    obraQuery = obraQuery.Where(x => x.Autores.Contains(queryParameters.Autores));
+                }
+
+                if (queryParameters.Duracion != null)
+                {
+                    obraQuery = obraQuery.Where(x => x.Duracion == queryParameters.Duracion);
+                }
+
+                if (!string.IsNullOrEmpty(queryParameters.Actores))
+                {
+                    obraQuery = obraQuery.Where(x => x.Actores.Contains(queryParameters.Actores));
+                }
+
+                if (queryParameters.FechaUno != null)
+                {
+                    obraQuery = obraQuery.Where(x => x.FechaUno == queryParameters.FechaUno);
+                }
+
+                if (queryParameters.FechaDos != null)
+                {
+                    obraQuery = obraQuery.Where(x => x.FechaDos == queryParameters.FechaDos);
+                }
+
+                if (queryParameters.FechaTres != null)
+                {
+                    obraQuery = obraQuery.Where(x => x.FechaTres == queryParameters.FechaTres);
+                }
+
+                var obra = obraQuery.ToList();
+
+                return obra;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error obteniendo las obras por parametros");
+                throw;
+            }
+        }
+
         public Obra GetByName(string name)
         {
             try
@@ -51,8 +108,8 @@ namespace UrbanTheater.Business
             }
             catch (Exception ex)
             {
-              _logger.LogError(ex, "Error obteniendo las obras por nombre");
-                throw; 
+                _logger.LogError(ex, "Error obteniendo las obras por nombre");
+                throw;
 
             }
         }
@@ -64,9 +121,9 @@ namespace UrbanTheater.Business
             }
             catch (Exception ex)
             {
-               
+
                 _logger.LogError(ex, "Error actualizando la obra por id");
-                throw; 
+                throw;
             }
         }
 
@@ -81,7 +138,7 @@ namespace UrbanTheater.Business
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Error añadiendo la obra");
-                throw; 
+                throw;
             }
 
         }
@@ -94,7 +151,7 @@ namespace UrbanTheater.Business
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Error eliminando la obra");
-                throw; 
+                throw;
             }
 
         }
@@ -109,8 +166,8 @@ namespace UrbanTheater.Business
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Error obteniendo los asientos ocupados");
-                throw; 
-            
+                throw;
+
             }
         }
 
@@ -123,8 +180,8 @@ namespace UrbanTheater.Business
             }
             catch (Exception ex)
             {
-               _logger.LogError(ex, "Error añadiendo los asientos ocupados");
-                throw; 
+                _logger.LogError(ex, "Error añadiendo los asientos ocupados");
+                throw;
             }
         }
 

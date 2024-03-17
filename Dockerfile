@@ -19,4 +19,6 @@ RUN dotnet publish -c Release -o /app/out
 FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS runtime
 WORKDIR /app
 COPY --from=build /app/out .
+
+# Ejecuta tu aplicación
 ENTRYPOINT ["dotnet", "UrbanTheater.Api.dll"]

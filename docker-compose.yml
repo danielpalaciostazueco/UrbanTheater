@@ -35,7 +35,7 @@ services:
       - DOCKER_CONTAINER=true
   web:
     container_name: webContainer
-    image: danielpalacios2003/urbantheater_front
+    image: danielpalacios2003/historial2
     ports:
       - "9000:80"
     depends_on:

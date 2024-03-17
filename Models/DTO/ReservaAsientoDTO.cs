@@ -1,4 +1,4 @@
-using System.ComponentModel.DataAnnotations.Schema; 
+using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
 
@@ -10,6 +10,7 @@ public class ReservaAsientoDTO
 
     [Required]
     public List<int> asientos { get; set; }
+
 }
 
 

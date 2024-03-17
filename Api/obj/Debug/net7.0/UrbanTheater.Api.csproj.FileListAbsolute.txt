@@ -1,228 +1,10 @@
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\appsettings.Development.json
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\appsettings.json
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Api.exe
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Api.deps.json
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Api.runtimeconfig.json
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Api.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Api.pdb
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Azure.Core.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Azure.Identity.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Humanizer.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Abstractions.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.Hosting.Abstractions.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Identity.Client.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.OpenApi.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Mono.TextTemplating.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Serilog.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Serilog.AspNetCore.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Serilog.Sinks.Console.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Serilog.Sinks.File.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\System.CodeDom.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\System.Data.SqlClient.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\System.Drawing.Common.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\System.Memory.Data.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\System.Runtime.Caching.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\System.Security.Permissions.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\System.Text.Encodings.Web.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\System.Text.Json.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\System.Windows.Extensions.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\runtimes\browser\lib\net7.0\System.Text.Encodings.Web.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Business.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Data.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Models.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Business.pdb
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Models.pdb
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Data.pdb
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.csproj.AssemblyReference.cache
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.AssemblyInfoInputs.cache
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.AssemblyInfo.cs
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.csproj.CoreCompileInputs.cache
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\obj\Debug\net7.0\staticwebassets\msbuild.UrbanTheater.Api.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\obj\Debug\net7.0\staticwebassets\msbuild.build.UrbanTheater.Api.props
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UrbanTheater.Api.props
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.UrbanTheater.Api.props
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\obj\Debug\net7.0\staticwebassets.pack.json
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\obj\Debug\net7.0\staticwebassets.build.json
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\obj\Debug\net7.0\scopedcss\bundle\UrbanTheater.Api.styles.css
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.csproj.CopyComplete
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\obj\Debug\net7.0\refint\UrbanTheater.Api.dll
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.pdb
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.genruntimeconfig.cache
-C:\Users\Usuario\Desktop\Nueva carpeta\UrbanTheater\Api\obj\Debug\net7.0\ref\UrbanTheater.Api.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\appsettings.Development.json
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\appsettings.json
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Api.exe
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Api.deps.json
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Api.runtimeconfig.json
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Api.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Api.pdb
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Azure.Core.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Azure.Identity.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Humanizer.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Abstractions.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.Hosting.Abstractions.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Identity.Client.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.OpenApi.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Mono.TextTemplating.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Serilog.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Serilog.AspNetCore.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Serilog.Sinks.Console.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Serilog.Sinks.File.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\System.CodeDom.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\System.Data.SqlClient.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\System.Diagnostics.DiagnosticSource.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\System.Drawing.Common.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\System.Memory.Data.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\System.Runtime.Caching.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\System.Security.Permissions.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\System.Text.Encodings.Web.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\System.Text.Json.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\System.Windows.Extensions.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\runtimes\browser\lib\net7.0\System.Text.Encodings.Web.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Business.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Data.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Models.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Business.pdb
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Models.pdb
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Data.pdb
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.csproj.AssemblyReference.cache
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.AssemblyInfoInputs.cache
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.AssemblyInfo.cs
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.csproj.CoreCompileInputs.cache
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\obj\Debug\net7.0\staticwebassets\msbuild.UrbanTheater.Api.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\obj\Debug\net7.0\staticwebassets\msbuild.build.UrbanTheater.Api.props
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UrbanTheater.Api.props
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.UrbanTheater.Api.props
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\obj\Debug\net7.0\staticwebassets.pack.json
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\obj\Debug\net7.0\staticwebassets.build.json
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\obj\Debug\net7.0\scopedcss\bundle\UrbanTheater.Api.styles.css
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.csproj.CopyComplete
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\obj\Debug\net7.0\refint\UrbanTheater.Api.dll
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.pdb
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.genruntimeconfig.cache
-C:\Users\palac\Desktop\nuevore\UrbanTheater\Api\obj\Debug\net7.0\ref\UrbanTheater.Api.dll
-<<<<<<< HEAD
+C:\Users\Usuario\Desktop\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Usuario\Desktop\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Usuario\Desktop\UrbanTheater\Api\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\Usuario\Desktop\UrbanTheater\Api\bin\Debug\net7.0\appsettings.json
 C:\Users\Usuario\Desktop\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Api.exe
@@ -314,13 +96,6 @@ C:\Users\Usuario\Desktop\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Models.d
 C:\Users\Usuario\Desktop\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Business.pdb
 C:\Users\Usuario\Desktop\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Models.pdb
 C:\Users\Usuario\Desktop\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Data.pdb
-C:\Users\Usuario\Desktop\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.csproj.AssemblyReference.cache
-C:\Users\Usuario\Desktop\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Usuario\Desktop\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.AssemblyInfoInputs.cache
-C:\Users\Usuario\Desktop\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.AssemblyInfo.cs
-C:\Users\Usuario\Desktop\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.csproj.CoreCompileInputs.cache
-C:\Users\Usuario\Desktop\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Usuario\Desktop\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Usuario\Desktop\UrbanTheater\Api\obj\Debug\net7.0\staticwebassets\msbuild.UrbanTheater.Api.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\Usuario\Desktop\UrbanTheater\Api\obj\Debug\net7.0\staticwebassets\msbuild.build.UrbanTheater.Api.props
 C:\Users\Usuario\Desktop\UrbanTheater\Api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UrbanTheater.Api.props
@@ -335,117 +110,555 @@ C:\Users\Usuario\Desktop\UrbanTheater\Api\obj\Debug\net7.0\refint\UrbanTheater.A
 C:\Users\Usuario\Desktop\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.pdb
 C:\Users\Usuario\Desktop\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.genruntimeconfig.cache
 C:\Users\Usuario\Desktop\UrbanTheater\Api\obj\Debug\net7.0\ref\UrbanTheater.Api.dll
-=======
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\appsettings.Development.json
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\appsettings.json
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Api.exe
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Api.deps.json
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Api.runtimeconfig.json
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Api.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Api.pdb
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Azure.Core.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Azure.Identity.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Humanizer.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Abstractions.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.Hosting.Abstractions.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Identity.Client.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.OpenApi.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Mono.TextTemplating.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Serilog.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Serilog.AspNetCore.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Serilog.Sinks.Console.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Serilog.Sinks.File.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\System.CodeDom.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\System.Data.SqlClient.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\System.Diagnostics.DiagnosticSource.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\System.Drawing.Common.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\System.Memory.Data.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\System.Runtime.Caching.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\System.Security.Permissions.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\System.Text.Encodings.Web.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\System.Text.Json.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\System.Windows.Extensions.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\runtimes\browser\lib\net7.0\System.Text.Encodings.Web.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Business.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Data.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Models.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Business.pdb
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Models.pdb
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\bin\Debug\net7.0\UrbanTheater.Data.pdb
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.csproj.AssemblyReference.cache
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.AssemblyInfoInputs.cache
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.AssemblyInfo.cs
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.csproj.CoreCompileInputs.cache
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\obj\Debug\net7.0\staticwebassets\msbuild.UrbanTheater.Api.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\obj\Debug\net7.0\staticwebassets\msbuild.build.UrbanTheater.Api.props
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UrbanTheater.Api.props
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.UrbanTheater.Api.props
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\obj\Debug\net7.0\staticwebassets.pack.json
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\obj\Debug\net7.0\staticwebassets.build.json
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\obj\Debug\net7.0\scopedcss\bundle\UrbanTheater.Api.styles.css
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.csproj.CopyComplete
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\obj\Debug\net7.0\refint\UrbanTheater.Api.dll
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.pdb
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\obj\Debug\net7.0\UrbanTheater.Api.genruntimeconfig.cache
-C:\Users\palac\Desktop\UrbanTheater (1)\UrbanTheater\Api\obj\Debug\net7.0\ref\UrbanTheater.Api.dll
->>>>>>> 749489358abb588cc6a36f20f112274e15a91dd2
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\UrbanTheater.Api.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\UrbanTheater.Api.pdb
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Serilog.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Serilog.Sinks.File.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\System.Text.Encodings.Web.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\System.Text.Json.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\UrbanTheater.Business.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\UrbanTheater.Data.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\UrbanTheater.Models.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\UrbanTheater.Data.pdb
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Humanizer.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Serilog.AspNetCore.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\browser\lib\net7.0\System.Text.Encodings.Web.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\UrbanTheater.Business.pdb
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\UrbanTheater.Models.pdb
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\UrbanTheater.Api.csproj.AssemblyReference.cache
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\UrbanTheater.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\UrbanTheater.Api.AssemblyInfoInputs.cache
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\UrbanTheater.Api.AssemblyInfo.cs
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\UrbanTheater.Api.csproj.CoreCompileInputs.cache
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\UrbanTheater.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\UrbanTheater.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\staticwebassets\msbuild.UrbanTheater.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\staticwebassets\msbuild.build.UrbanTheater.Api.props
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UrbanTheater.Api.props
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.UrbanTheater.Api.props
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\scopedcss\bundle\UrbanTheater.Api.styles.css
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\UrbanTheater.Api.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\refint\UrbanTheater.Api.dll
+C:\Users\S2-PC00\Downloads\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\UrbanTheater.Api.pdb
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\appsettings.Development.json
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\appsettings.json
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\UrbanTheater.Api.exe
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\UrbanTheater.Api.deps.json
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\UrbanTheater.Api.runtimeconfig.json
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\UrbanTheater.Api.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\UrbanTheater.Api.pdb
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Azure.Core.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Azure.Identity.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Humanizer.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Serilog.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Serilog.AspNetCore.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Serilog.Sinks.File.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\System.CodeDom.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\System.Data.SqlClient.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\System.Diagnostics.DiagnosticSource.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\System.Memory.Data.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\System.Text.Encodings.Web.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\System.Text.Json.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\runtimes\browser\lib\net7.0\System.Text.Encodings.Web.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\UrbanTheater.Business.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\UrbanTheater.Data.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\UrbanTheater.Models.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\UrbanTheater.Business.pdb
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\UrbanTheater.Models.pdb
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\bin\Debug\net7.0\UrbanTheater.Data.pdb
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\obj\Debug\net7.0\UrbanTheater.Api.csproj.AssemblyReference.cache
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\obj\Debug\net7.0\UrbanTheater.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\obj\Debug\net7.0\UrbanTheater.Api.AssemblyInfoInputs.cache
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\obj\Debug\net7.0\UrbanTheater.Api.AssemblyInfo.cs
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\obj\Debug\net7.0\UrbanTheater.Api.csproj.CoreCompileInputs.cache
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\obj\Debug\net7.0\UrbanTheater.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\obj\Debug\net7.0\UrbanTheater.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\obj\Debug\net7.0\staticwebassets\msbuild.UrbanTheater.Api.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\obj\Debug\net7.0\staticwebassets\msbuild.build.UrbanTheater.Api.props
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UrbanTheater.Api.props
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.UrbanTheater.Api.props
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\obj\Debug\net7.0\staticwebassets.build.json
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\obj\Debug\net7.0\staticwebassets.development.json
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\obj\Debug\net7.0\scopedcss\bundle\UrbanTheater.Api.styles.css
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\obj\Debug\net7.0\UrbanTheater.Api.csproj.CopyComplete
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\obj\Debug\net7.0\UrbanTheater.Api.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\obj\Debug\net7.0\refint\UrbanTheater.Api.dll
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\obj\Debug\net7.0\UrbanTheater.Api.pdb
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\obj\Debug\net7.0\UrbanTheater.Api.genruntimeconfig.cache
+D:\Nueva carpeta\Nueva carpeta\aSD\Api\obj\Debug\net7.0\ref\UrbanTheater.Api.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\appsettings.json
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\UrbanTheater.Api.exe
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\UrbanTheater.Api.deps.json
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\UrbanTheater.Api.runtimeconfig.json
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\UrbanTheater.Api.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\UrbanTheater.Api.pdb
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Serilog.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Serilog.AspNetCore.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Serilog.Sinks.File.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\System.Text.Encodings.Web.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\System.Text.Json.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\browser\lib\net7.0\System.Text.Encodings.Web.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\UrbanTheater.Business.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\UrbanTheater.Data.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\UrbanTheater.Models.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\UrbanTheater.Business.pdb
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\UrbanTheater.Models.pdb
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\bin\Debug\net7.0\UrbanTheater.Data.pdb
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\UrbanTheater.Api.csproj.AssemblyReference.cache
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\UrbanTheater.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\UrbanTheater.Api.AssemblyInfoInputs.cache
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\UrbanTheater.Api.AssemblyInfo.cs
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\UrbanTheater.Api.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\UrbanTheater.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\UrbanTheater.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\staticwebassets\msbuild.UrbanTheater.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\staticwebassets\msbuild.build.UrbanTheater.Api.props
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UrbanTheater.Api.props
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.UrbanTheater.Api.props
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\scopedcss\bundle\UrbanTheater.Api.styles.css
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\UrbanTheater.Api.csproj.CopyComplete
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\UrbanTheater.Api.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\refint\UrbanTheater.Api.dll
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\UrbanTheater.Api.pdb
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\UrbanTheater.Api.genruntimeconfig.cache
+C:\Users\Usuario\Downloads\Nueva carpeta (1)\Nueva carpeta\Nueva carpeta\aSD\api\obj\Debug\net7.0\ref\UrbanTheater.Api.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\appsettings.json
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\UrbanTheater.Api.exe
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\UrbanTheater.Api.deps.json
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\UrbanTheater.Api.runtimeconfig.json
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\UrbanTheater.Api.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\UrbanTheater.Api.pdb
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Serilog.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Serilog.AspNetCore.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Serilog.Sinks.File.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\System.Text.Encodings.Web.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\System.Text.Json.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\runtimes\browser\lib\net7.0\System.Text.Encodings.Web.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\UrbanTheater.Business.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\UrbanTheater.Data.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\UrbanTheater.Models.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\UrbanTheater.Business.pdb
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\UrbanTheater.Models.pdb
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\bin\Debug\net7.0\UrbanTheater.Data.pdb
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\obj\Debug\net7.0\UrbanTheater.Api.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\obj\Debug\net7.0\UrbanTheater.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\obj\Debug\net7.0\UrbanTheater.Api.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\obj\Debug\net7.0\UrbanTheater.Api.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\obj\Debug\net7.0\UrbanTheater.Api.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\obj\Debug\net7.0\UrbanTheater.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\obj\Debug\net7.0\UrbanTheater.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\obj\Debug\net7.0\staticwebassets\msbuild.UrbanTheater.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\obj\Debug\net7.0\staticwebassets\msbuild.build.UrbanTheater.Api.props
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UrbanTheater.Api.props
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.UrbanTheater.Api.props
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\obj\Debug\net7.0\scopedcss\bundle\UrbanTheater.Api.styles.css
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\obj\Debug\net7.0\UrbanTheater.Api.csproj.CopyComplete
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\obj\Debug\net7.0\UrbanTheater.Api.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\obj\Debug\net7.0\refint\UrbanTheater.Api.dll
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\obj\Debug\net7.0\UrbanTheater.Api.pdb
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\obj\Debug\net7.0\UrbanTheater.Api.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\theater_vue\aSD\Api\obj\Debug\net7.0\ref\UrbanTheater.Api.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\appsettings.json
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\UrbanTheater.Api.exe
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\UrbanTheater.Api.deps.json
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\UrbanTheater.Api.runtimeconfig.json
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\UrbanTheater.Api.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\UrbanTheater.Api.pdb
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Serilog.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Serilog.AspNetCore.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Serilog.Sinks.File.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\System.Text.Encodings.Web.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\System.Text.Json.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\runtimes\browser\lib\net7.0\System.Text.Encodings.Web.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\UrbanTheater.Business.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\UrbanTheater.Data.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\UrbanTheater.Models.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\UrbanTheater.Business.pdb
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\UrbanTheater.Models.pdb
+C:\Users\Usuario\Desktop\asd\aSD\Api\bin\Debug\net7.0\UrbanTheater.Data.pdb
+C:\Users\Usuario\Desktop\asd\aSD\Api\obj\Debug\net7.0\UrbanTheater.Api.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\asd\aSD\Api\obj\Debug\net7.0\UrbanTheater.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\asd\aSD\Api\obj\Debug\net7.0\UrbanTheater.Api.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\asd\aSD\Api\obj\Debug\net7.0\UrbanTheater.Api.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\asd\aSD\Api\obj\Debug\net7.0\UrbanTheater.Api.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\asd\aSD\Api\obj\Debug\net7.0\UrbanTheater.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Usuario\Desktop\asd\aSD\Api\obj\Debug\net7.0\UrbanTheater.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Usuario\Desktop\asd\aSD\Api\obj\Debug\net7.0\staticwebassets\msbuild.UrbanTheater.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Usuario\Desktop\asd\aSD\Api\obj\Debug\net7.0\staticwebassets\msbuild.build.UrbanTheater.Api.props
+C:\Users\Usuario\Desktop\asd\aSD\Api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UrbanTheater.Api.props
+C:\Users\Usuario\Desktop\asd\aSD\Api\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.UrbanTheater.Api.props
+C:\Users\Usuario\Desktop\asd\aSD\Api\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Usuario\Desktop\asd\aSD\Api\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Usuario\Desktop\asd\aSD\Api\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Usuario\Desktop\asd\aSD\Api\obj\Debug\net7.0\scopedcss\bundle\UrbanTheater.Api.styles.css
+C:\Users\Usuario\Desktop\asd\aSD\Api\obj\Debug\net7.0\UrbanTheater.Api.csproj.CopyComplete
+C:\Users\Usuario\Desktop\asd\aSD\Api\obj\Debug\net7.0\UrbanTheater.Api.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\obj\Debug\net7.0\refint\UrbanTheater.Api.dll
+C:\Users\Usuario\Desktop\asd\aSD\Api\obj\Debug\net7.0\UrbanTheater.Api.pdb
+C:\Users\Usuario\Desktop\asd\aSD\Api\obj\Debug\net7.0\UrbanTheater.Api.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\asd\aSD\Api\obj\Debug\net7.0\ref\UrbanTheater.Api.dll

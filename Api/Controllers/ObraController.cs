@@ -11,20 +11,20 @@ namespace UrbanTheater.Api.Controllers
     public class ObraController : ControllerBase
     {
         private readonly ObraService _obraService;
- 
+
 
         public ObraController(ObraService obraService)
         {
             _obraService = obraService;
         }
 
-       [HttpGet]
+        [HttpGet]
         public ActionResult<List<Obra>> GetAll()
         {
-             
-                return _obraService.GetAll();
-            
-           
+
+            return _obraService.GetAll();
+
+
         }
 
         [HttpGet("{id}")]
@@ -42,10 +42,29 @@ namespace UrbanTheater.Api.Controllers
             }
             catch (Exception ex)
             {
-                Log.Error(ex, "Error al hacer el get por id "); 
+                Log.Error(ex, "Error al hacer el get por id ");
                 return StatusCode(500, "Error interno del servidor");
             }
         }
+        [HttpGet("Search/")]
+        public ActionResult<IEnumerable<Obra>> SearchObraParameters ([FromQuery] QueryParameters queryParameters) {
+            try
+            {
+                var obras = _obraService.SearchObraParameters(queryParameters);
+                if (obras == null)
+                {
+                    return NotFound();
+                }
+
+                return Ok(obras);
+            }
+            catch (Exception ex)
+            {
+                Log.Error(ex, "Error al hacer el get por parametros ");
+                return StatusCode(500, "Error interno del servidor");
+            }
+        }
+        
 
         [HttpGet("/Obras/Nombre/{name}")]
         public ActionResult<Obra> GetByName(string name)
@@ -62,8 +81,8 @@ namespace UrbanTheater.Api.Controllers
             }
             catch (Exception ex)
             {
-                 Log.Error(ex, "Error el método de get por nombre "); 
-                return StatusCode(500, "Error interno del servidor"); 
+                Log.Error(ex, "Error el método de get por nombre ");
+                return StatusCode(500, "Error interno del servidor");
             }
         }
 
@@ -82,11 +101,11 @@ namespace UrbanTheater.Api.Controllers
             }
             catch (Exception ex)
             {
-                Log.Error(ex, "Error al obtener todas las obras"); 
+                Log.Error(ex, "Error al obtener todas las obras");
                 return StatusCode(500, "Error interno del servidor");
             }
         }
-   
+
         [HttpPut("{id}")]
         public IActionResult Update(int id, Obra obra)
         {
@@ -108,7 +127,7 @@ namespace UrbanTheater.Api.Controllers
             }
             catch (Exception ex)
             {
-                  Log.Error(ex, "Error al modificar la obra por id"); 
+                Log.Error(ex, "Error al modificar la obra por id");
                 return StatusCode(500, "Error interno del servidor");
             }
         }
@@ -129,7 +148,7 @@ namespace UrbanTheater.Api.Controllers
             }
             catch (Exception ex)
             {
-                Log.Error(ex, "Error al eliminar la obra por id"); 
+                Log.Error(ex, "Error al eliminar la obra por id");
                 return StatusCode(500, "Error interno del servidor");
             }
         }
@@ -152,7 +171,7 @@ namespace UrbanTheater.Api.Controllers
             }
             catch (Exception ex)
             {
-                Log.Error(ex, "Error al obtener los asientos ocupados"); 
+                Log.Error(ex, "Error al obtener los asientos ocupados");
                 return StatusCode(500, "Error interno del servidor");
             }
         }
@@ -178,7 +197,7 @@ namespace UrbanTheater.Api.Controllers
             }
             catch (Exception ex)
             {
-                 Log.Error(ex, "Error al añadir los asientos"); 
+                Log.Error(ex, "Error al añadir los asientos");
                 return StatusCode(500, "Error interno del servidor");
             }
 

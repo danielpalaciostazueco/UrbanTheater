@@ -1,0 +1,478 @@
+{
+	"info": {
+		"_postman_id": "b088f0de-b9b7-4101-a911-f446f841a29e",
+		"name": "UrbanTheater - LOCAL",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31659067"
+	},
+	"item": [
+		{
+			"name": "200 - 201 - 204",
+			"item": [
+				{
+					"name": "Obras",
+					"item": [
+						{
+							"name": "AllObras",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/Obra",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"Obra"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ObrasID",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/Obra/{{idObra}}",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"Obra",
+										"{{idObra}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ObrasName",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/Obras/Nombre/{{nombreObra}}",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"Obras",
+										"Nombre",
+										"{{nombreObra}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ObrasDelete",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/Obra/{{idObra}}",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"Obra",
+										"{{idObra}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ObrasPost",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"obraID\": 0,\r\n  \"nombre\": \"string\",\r\n  \"descripcion\": \"string\",\r\n  \"autores\": \"string\",\r\n  \"duracion\": 0,\r\n  \"actores\": \"string\",\r\n  \"imagenes\": \"string\",\r\n  \"fechaUno\": \"2024-03-14T16:29:58.179Z\",\r\n  \"fechaDos\": \"2024-03-14T16:29:58.179Z\",\r\n  \"fechaTres\": \"2024-03-14T16:29:58.179Z\",\r\n  \"cartel\": \"string\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_url}}/Obra",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"Obra"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ObrasPut",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"obraID\": 2,\r\n  \"nombre\": \"string\",\r\n  \"descripcion\": \"string\",\r\n  \"autores\": \"string\",\r\n  \"duracion\": 0,\r\n  \"actores\": \"string\",\r\n  \"imagenes\": \"string\",\r\n  \"fechaUno\": \"2024-03-14T16:30:28.831Z\",\r\n  \"fechaDos\": \"2024-03-14T16:30:28.831Z\",\r\n  \"fechaTres\": \"2024-03-14T16:30:28.831Z\",\r\n  \"cartel\": \"string\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_url}}/Obra/{{idObra}}",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"Obra",
+										"{{idObra}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Usuarios",
+					"item": [
+						{
+							"name": "UsuarioRegister",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"idUsuario\": 0,\r\n  \"nombreUsuario\": \"pruebaPotman\",\r\n  \"contrasena\": \"pruebaPotman\",\r\n  \"rol\": 0\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_url}}/Usuario/Register",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"Usuario",
+										"Register"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Asientos",
+					"item": [
+						{
+							"name": "Asientos",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"asientos\": [\r\n    1,2,3\r\n  ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_url}}/Obra/{{idObra}}/Session?idSession=1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"Obra",
+										"{{idObra}}",
+										"Session"
+									],
+									"query": [
+										{
+											"key": "idSession",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "AllAsientos",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/Asiento",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"Asiento"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "AsientosReservados",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/Obra/{{idObra}}/Session?idSession=1",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"Obra",
+										"{{idObra}}",
+										"Session"
+									],
+									"query": [
+										{
+											"key": "idSession",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Historial",
+					"item": [
+						{
+							"name": "Historial",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/Historial/{{idUsuario}}",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"Historial",
+										"{{idUsuario}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "AñadirHistorial",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"nombreUsuario\": \"string\",\r\n  \"nombreObra\": \"string\",\r\n  \"fecha\": \"2024-03-14T16:26:23.365Z\",\r\n  \"sesion\": \"string\",\r\n  \"asiento\": [\r\n    0\r\n  ],\r\n  \"idUsuario\": 0\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_url}}/Historial",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"Historial"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "400 - 404",
+			"item": [
+				{
+					"name": "Obras",
+					"item": [
+						{
+							"name": "ObraNoEncontrada",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/Obra/80",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"Obra",
+										"80"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ObraNoEncontrada",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/Obra/80",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"Obra",
+										"80"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ObrasNameNoEncontrada",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/Obras/Nombre/{{nombreObraNoExistente}}",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"Obras",
+										"Nombre",
+										"{{nombreObraNoExistente}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Asientos",
+					"item": [
+						{
+							"name": "AsientosNoEncontrados",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/Obra/80/Session?idSession=80",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"Obra",
+										"80",
+										"Session"
+									],
+									"query": [
+										{
+											"key": "idSession",
+											"value": "80"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Usuarios",
+					"item": [
+						{
+							"name": "BadRequestUsuarios",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"idUsuario\": 0,\r\n  \"nombreUsuario\": \"pruebaPotman\",\r\n  \"contrasena\": 1,\r\n  \"rol\": 0\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_url}}/Usuario/Register",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"Usuario",
+										"Register"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}

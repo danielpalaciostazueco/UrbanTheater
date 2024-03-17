@@ -31,14 +31,9 @@ namespace UrbanTheater.Api.Controllers
                 var usuario = _usuarioService.Get(usuarioRequest.nombreUsuario, usuarioRequest.contrasena);
                 if(usuario == null){
                    _usuarioService.AddUsuario(usuarioRequest); 
-                   return Ok(usuarioRequest);
+                    var usuario2 = _usuarioService.Get(usuarioRequest.nombreUsuario, usuarioRequest.contrasena);
+                   return Ok(usuario2);
                 }
-
-                if(usuario != null && usuario.nombreUsuario != usuarioRequest.nombreUsuario || usuario.contrasena != usuarioRequest.contrasena)
-                {
-                    return NotFound();
-                }
-
                 return Ok(usuario);
             }
             catch (Exception ex)
